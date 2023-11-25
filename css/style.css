@@ -65,7 +65,7 @@ nav{
 #label-box {
     margin: 0 auto;
     position: absolute;
-    top: 20rem;
+    top: 19rem;
     left: 50%;
     transform: translateX(-50%); /* Centering the element */
 }
@@ -95,15 +95,15 @@ nav{
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     position: absolute;
-    top: 27rem;
+    top: 25rem;
 }
 
 
 #story{
     position: absolute;
-    top: 35rem;
+    top: 32rem;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -177,9 +177,9 @@ img{
     flex-direction: row;
     align-items: center;
     margin:0 auto;
-    height: 60%;
+    height: 30rem;
     align-content: center;
-    /*background-image: url(../Images/giraffe1.jpg);*/
+    background-image: url(../Images/giraffe1.jpg);
     background-size: cover; /* This will cover the entire element */
     background-repeat: no-repeat; /* This will prevent the image from repeating */
     background-position: 50% 50%; /* This centers the image in the element */
@@ -191,9 +191,9 @@ img{
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
-    height: 60%;
+    height: 30rem;
     align-content: center;
-    /*background-image: url(../Images/paper-3155438_1920.jpg);*/
+    background-image: url(../Images/paper-3155438_1920.jpg);
     background-size: cover; /* This will cover the entire element */
     background-repeat: no-repeat; /* This will prevent the image from repeating */
     background-position: 50% 50%; /* This centers the image in the element */
@@ -621,12 +621,6 @@ iframe{
 /*---------------------Max-Width 1000px-----------------------*/
 @media screen and (max-width: 1000px){
    
-
-    .text-rotate{
-        top:35%;
-        border-radius: 10px;
-    }
-
     #current{
         width: 100%;
     }
@@ -634,7 +628,7 @@ iframe{
     .content-text2{
         display: flex;
         flex-direction: column-reverse;
-        height: 100%;
+        height: 55rem;
         width: 100%;
 
     }
@@ -642,7 +636,7 @@ iframe{
     .content-text{
         display: flex;
         flex-direction: column;
-        height: 100%;
+        height: 55rem;
         width: 100%;
     }
 
@@ -709,15 +703,13 @@ iframe{
     }
     
     #heading{ 
-        display: inline-block;
-        position: absolute;
+        display: flex;
+        flex-direction: column;
         top: 12rem;
-        font-size: 100px;
     }
+
     #story{
-        display: inline-block;
-        position: absolute;
-        top: 25rem;
+        top: 19rem;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -729,20 +721,19 @@ iframe{
         transform: scale(0.75);
     }
 
-
-
     .content-text2{
         display: flex;
         flex-direction: column;
         flex-direction: column-reverse;
-        height: 110%;
-
+        height: 52rem;
+        justify-content: center;
     }
 
     .content-text{
         display: flex;
         flex-direction: column;
-        height: 110%;
+        height: 52rem;
+        justify-content: center;
     }
 
     .description{
@@ -761,3 +752,9 @@ iframe{
 }
 
 
+/*---------------------Max-Width 526px-----------------------*/
+@media screen and (max-width: 526px){
+    #story{
+        top:25rem;
+    }
+}

@@ -25,7 +25,7 @@
 
 #about{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0;
     width: 80%;
     height: 30rem;
@@ -40,13 +40,34 @@
 
 .slide{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
+
+.about-text, .slider-media {
+    flex: 1; /* Adjust this value to control the width ratio between text and media */
+    padding: 1rem;
+}
+
+
+.slider-media {
+    margin-left: 0.5rem; /* Adjust space between text and media */
+    max-width: 100%;
+    border-radius: 5px;
+    object-fit: cover; /* Adjust this as needed for your media */
+}
+
 
 .about-text{
     position: absolute;
     height: 100%;
+    width: 45%;
     margin-top: 2rem;
+    text-align: left;
+    margin-right: 0.2rem; /* Adjust space between text and media */
 }
 
 
@@ -54,11 +75,10 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    margin-top: 1.75rem;
     border-radius: 5px;
     width: 40%;
     height: 80%;
-    left: 52%;
+    left: 50%;
     object-fit: cover;
     border-radius: 10px;
     animation: fade-in 1s ease-in-out forwards;
@@ -145,6 +165,10 @@ button.prev, button.next {
 
 @media screen and (max-width: 800px){
 
+    .slide, .slider-media, .about-text{
+        display: flex;
+        flex-direction: column;
+    }
 
 
     button.prev, button.next {
@@ -171,7 +195,7 @@ button.prev, button.next {
     #about{
         display: flex;
         flex-direction: column;
-        height: 30rem;
+        height: 50rem;
     }
     .slide{
         display: flex;

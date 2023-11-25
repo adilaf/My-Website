@@ -10,7 +10,7 @@
 h1{
     font-family:'Rubik';
     color: #E5E5E5;
-    font-size: clamp(2rem, 1rem + 10vw, 7rem);
+    font-size: clamp(5rem, 1rem + 8vw, 7rem);
     text-shadow: 5px 5px 20px black;
     line-height: 100px;
     animation: fade-in 1.5s ease-in forwards;
@@ -74,3 +74,5 @@ text{
     from { opacity: 0; transform: translateY(-50px); }
     to { opacity: 4; transform: translateY(0); }
 }
+
+
