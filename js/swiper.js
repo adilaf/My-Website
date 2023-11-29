@@ -1,16 +1,21 @@
-function updateSlidePosition() {
-  var slides = document.getElementsByClassName("slide");
-  for (var i = 0; i < slides.length; i++) {
-      slides[i].style.transform = 'translateX(' + (-slideIndex * 100) + '%)';
-  }
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
 }
 
 function showDivs(n) {
-  var totalSlides = document.getElementsByClassName("slide").length;
-  if (n > totalSlides) { slideIndex = 1; }
-  if (n < 1) { slideIndex = totalSlides; }
-  updateSlidePosition();
-}
+    var i;
+    var slides = document.getElementsByClassName("slide");
+    var totalSlides = slides.length;
 
-// Initialize the slider
-showDivs(slideIndex);
+    if (n > totalSlides) { slideIndex = 1 }
+    if (n < 1) { slideIndex = totalSlides }
+    
+    for (i = 0; i < totalSlides; i++) {
+        slides[i].style.display = "none";
+    }
+    
+    slides[slideIndex-1].style.display = "flex";
+}

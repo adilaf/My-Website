@@ -191,10 +191,6 @@ img{
     text-align: center;
     align-content: center;
     animation: fade-in 2s ease-in-out forwards;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .recent-content1{
@@ -625,24 +621,6 @@ iframe{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1366px){
-    #current{
-        background-attachment: scroll;
-    }
-
-}
 
 
 
