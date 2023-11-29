@@ -9,10 +9,7 @@
     margin:0 auto;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
-    /*background-image: url("../Images/blender.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;*/
+    background-color:rgb(227, 229, 237);
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
@@ -65,6 +62,11 @@
     text-align: center;
     align-items: center;
     align-content: center;
+    border-radius: 5px;
+    box-shadow: 10 10 10 black;
+    background-color: rgba(247, 247, 247,0.8);
+    animation: fade-in 2s ease-in-out forwards;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
