@@ -165,7 +165,7 @@ button.prev, button.next {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 90%;
+        width: 100%;
         height: 26rem;
     }
 
@@ -197,7 +197,7 @@ button.prev, button.next {
     
     .slider-media{
         display: flex;
-        max-width: 100%;
+        max-width: 90%;
         margin: 0 auto;
     }
     
