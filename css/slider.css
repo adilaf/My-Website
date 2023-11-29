@@ -18,6 +18,7 @@
 .slider-wrapper{
     display: flex;
     width: 100%;
+    position: absolute;
 }
 
 .slide{
