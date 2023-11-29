@@ -183,6 +183,12 @@ button.prev, button.next {
         height: 50rem;
         width: 90%;
     }
+
+    .slider-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
     .slide{
         display: flex;
         flex-direction: column;
