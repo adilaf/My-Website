@@ -147,9 +147,15 @@ button.prev, button.next {
 }
 
 
-/*---------------------max-width 750px-----------------------*/
+/*---------------------max-width 1200px-----------------------*/
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
+    #about{
+        display: flex;
+        flex-direction: column;
+        height: 50rem;
+        width: 90%;
+    }
 
     .slide, .slider-media, .about-text, .slider-content{
         display: flex;
@@ -183,13 +189,7 @@ button.prev, button.next {
 
 /*---------------------max-width 600px-----------------------*/
 @media screen and (max-width: 600px){
-    #about{
-        display: flex;
-        flex-direction: column;
-        height: 50rem;
-        width: 90%;
-    }
-
+    
     .slider-media{
         display: flex;
         width: 80%;
