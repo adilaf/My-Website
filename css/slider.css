@@ -17,7 +17,6 @@
 .slider-wrapper{
     display: flex;
     width: 100%;
-    overflow: hidden;
     position: relative;
 }
 
@@ -31,6 +30,7 @@
     min-width: 100%; /* Make each slide take full width */
     box-sizing: border-box; /* Optional, to include padding and borders in width */
     transition: margin-left 0.5s ease-in-out; /* Smooth transition for sliding effect */
+    overflow: hidden;
 }
 
 .slider-content{
