@@ -739,12 +739,12 @@ iframe{
         flex-direction: column;
         flex-wrap: wrap-reverse;
         width: 90%;
-        height: 25rem;
+        height: 26rem;
     }
 
     iframe{
         width: 90%;
-        height: 24rem;
+        height: 20rem;
     }
 
 }
