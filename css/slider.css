@@ -9,10 +9,7 @@
     margin:0 auto;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
-    background-image: url("../Images/Sky\ on\ fire.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-color: #ffffff;
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
