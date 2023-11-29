@@ -223,7 +223,7 @@ img{
     opacity: 1; /* 100% opacity */
 }
 
-.description, .slider-description{
+.description{
     display: flex;
     flex-direction: column;
     margin-top: 100px;
