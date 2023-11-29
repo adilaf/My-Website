@@ -210,12 +210,12 @@ button.prev, button.next {
     
     .slider-media{
         display: flex;
-        max-width: 80vw;
+        max-width: 80%;
         margin: 0 auto;
     }
     
     .slide h3, p{
         margin: 0 auto;
-        max-width: 80vw;
+        max-width: 80%;
     }
 }
