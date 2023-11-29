@@ -9,7 +9,6 @@
 #click-text{
     padding: 5px 10px;
     text-align:center;
-    margin: 0 auto;
     background-color: #225dff;
     color: #ffffff;
     border-radius: 5px 0px 0px 5px;
@@ -20,7 +19,6 @@
 #click-text2{
     padding: 5px 10px;
     font-family: 'Signika Negative', sans-serif;
-    left: 50%;
     color: #5c5c5c;
     border-radius: 0px 5px 5px 0px;;
     background-color: #ffffff;
