@@ -12,18 +12,18 @@
     background-color: rgb(247, 247, 247);
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
 }
 
-#sliderWrapper {
-    display: flex;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.sliderWrapper {
+    display: flex; /* Align slides in a row */
+    width: 100%; /* Full width of the container */
 }
 
 .slide{
     display: flex;
     flex-direction: row;
+    flex: 0 0 100%; /* Each slide takes full width but does not grow or shrink */
     justify-content: space-between;
     align-items: center;
     width: 100%;
