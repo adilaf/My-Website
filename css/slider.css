@@ -12,6 +12,7 @@
     background-color: rgb(247, 247, 247);
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
 }
 
 .slider-wrapper{
@@ -30,7 +31,6 @@
     min-width: 100%; /* Make each slide take full width */
     box-sizing: border-box; /* Optional, to include padding and borders in width */
     transition: margin-left 0.5s ease-in-out; /* Smooth transition for sliding effect */
-    overflow: hidden;
 }
 
 .slider-content{
