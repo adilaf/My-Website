@@ -193,7 +193,7 @@ img{
     animation: fade-in 2s ease-in-out forwards;
 }
 
-.recent-content1{
+.recent-content2{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -207,7 +207,7 @@ img{
     opacity: 1; /* 100% opacity */
 }
 
-.recent-content2{
+.recent-content1{
     display: flex;
     flex-direction: row;
     align-items: center;
