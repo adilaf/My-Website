@@ -17,11 +17,13 @@
 .slider-wrapper {
     display: flex;
     width: 100%;
-    overflow: hidden;
     transition: transform 0.5s ease-in-out; /* Smooth transition for sliding */
 }
 
 .slide{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     height: 100%;
