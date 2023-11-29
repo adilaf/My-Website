@@ -1,31 +1,5 @@
 
 /*=================About Page===================*/
-/*---Span Tags---*/
-#about-span{
-    position: absolute;
-    margin: 0 auto;
-}
-
-#click-text{
-    padding: 5px 10px;
-    text-align:center;
-    background-color: #225dff;
-    color: #ffffff;
-    border-radius: 5px 0px 0px 5px;
-    font-family: 'Signika Negative', sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#click-text2{
-    padding: 5px 10px;
-    font-family: 'Signika Negative', sans-serif;
-    color: #5c5c5c;
-    border-radius: 0px 5px 5px 0px;;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
 #about{
     display: flex;
     flex-direction: row;
