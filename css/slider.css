@@ -48,7 +48,7 @@
     z-index: 0;
 }
 
-.slider-content {
+.slider-media {
     flex: 1; /* Adjust this value to control the width ratio between text and media */
     padding: 1rem;
 }
@@ -57,7 +57,7 @@
 .slider-description{
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin: 0 auto;
     width: 50%;
     height: 26rem;
@@ -161,7 +161,7 @@ button.prev, button.next {
         width: 90%;
     }
 
-    .slide, .about-text, .slider-content{
+    .slider-content{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -170,9 +170,10 @@ button.prev, button.next {
     }
 
     .slider-media{
-        width: 100%;
+        max-width: 90%;
         height: 13.5rem;
     }
+
     button.prev, button.next {
         position: fixed;
         display: inline-block;
@@ -196,7 +197,7 @@ button.prev, button.next {
     
     .slider-media{
         display: flex;
-        width: 80%;
+        max-width: 100%;
         margin: 0 auto;
     }
     
