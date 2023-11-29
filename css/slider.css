@@ -210,7 +210,7 @@ button.prev, button.next {
     
     .slider-media{
         display: flex;
-        max-width: 80%;
+        width: 80%;
         margin: 0 auto;
     }
     
