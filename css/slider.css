@@ -98,8 +98,7 @@ button.prev, button.next {
     position: fixed;
     display: inline-block;
     background-color: #ffa631;
-    border: none;
-    border-style: dotted;
+    border:rgba(0, 0, 0, 0.2);
     color: rgb(0, 0, 0);
     padding: 10px 20px;
     text-align: center;
@@ -173,10 +172,9 @@ button.prev, button.next {
         position: fixed;
         display: inline-block;
         background-color: #ffa631;
-        border: none;
-        border-style: dotted;
+        border:rgba(0, 0, 0, 0.2);
         color: rgb(0, 0, 0);
-        padding: 15px 15px;
+        padding: 10px 10px;
         text-align: center;
         text-decoration: none;
     
