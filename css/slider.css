@@ -9,6 +9,10 @@
     margin:0 auto;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
+    /*background-image: url("../Images/blender.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;*/
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
@@ -19,10 +23,6 @@
     width: 100%;
     position: relative;
     transition: transform 0.5s ease-in-out; /* Transition for smooth sliding */
-    background-image: url("../Images/blender.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 .slide{
@@ -160,14 +160,16 @@ button.prev, button.next {
         width: 90%;
     }
 
-    .slide, .slider-media, .about-text, .slider-content{
+    .slide, .about-text, .slider-content{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 90%;
     }
 
-    .slider-content{
-        height: 50rem;
+    .slider-content, .slider-media{
+        height: 48rem;
+        width: 80%;
     }
 
 
