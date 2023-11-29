@@ -1,5 +1,10 @@
 
 /*=================About Page===================*/
+/*---Span Tags---*/
+#about-span{
+    position: absolute;
+    margin: 0 auto;
+}
 
 #click-text{
     padding: 5px 10px;
