@@ -635,7 +635,7 @@ iframe{
         width: 100%; 
     }
 
-    .recent-content12, .slider-content{
+    .recent-content2, .slider-content{
         display: flex;
         flex-direction: column-reverse;
         height: 55rem;
