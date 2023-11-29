@@ -154,6 +154,7 @@ button.prev, button.next {
     .slide, .slider-media, .about-text, .slider-content{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
 
