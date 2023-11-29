@@ -194,7 +194,7 @@ button.prev, button.next {
 
     .slider-media{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 80%;
         margin: 0 auto;
     }
