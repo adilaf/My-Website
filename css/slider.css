@@ -116,7 +116,7 @@ button.prev, button.next {
   button.prev:hover, button.next:hover {
     background-color: #225dff;
     color: #ffffff;
-    transform: scale(140%);
+    transform: scale(110%);
     transition: transform 0.2s ease-in-out;
   }
 
