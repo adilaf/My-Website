@@ -9,6 +9,7 @@
     margin:0 auto;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
+    background-color: #ffa631;
     /*background-image: url("../Images/blender.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,10 +49,6 @@
     z-index: 0;
 }
 
-.about-text, .slider-media {
-    flex: 1; /* Adjust this value to control the width ratio between text and media */
-    padding: 1rem;
-}
 
 
 .about-text{
