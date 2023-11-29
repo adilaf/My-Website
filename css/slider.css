@@ -91,10 +91,6 @@
 }
 
 
-.slide h3, p{
-    margin-left: 10rem;
-}
-
 /*---------------Buttons----------------*/
 .prev{
     align-items: center;
@@ -170,7 +166,7 @@ button.prev, button.next {
     #about{
         display: flex;
         flex-direction: column;
-        height: 50rem;
+        height: 30rem;
         width: 90%;
     }
 
@@ -178,14 +174,9 @@ button.prev, button.next {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 90vw;
+        width: 90%;
+        height: 26rem;
     }
-
-    .slider-content, .slider-media{
-        height: 46rem;
-        max-width: 80vw;
-    }
-
 
     button.prev, button.next {
         position: fixed;
