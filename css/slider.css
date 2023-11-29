@@ -151,7 +151,7 @@ button.prev, button.next {
 
 @media screen and (max-width: 800px){
 
-    .slide, .slider-media, .about-text{
+    .slide, .slider-media, .about-text, .slider-content{
         display: flex;
         flex-direction: column;
     }
@@ -191,9 +191,14 @@ button.prev, button.next {
         flex-direction: column;
     }
 
+
+    .slider-content{
+        display: flex;
+        flex-direction: column;
+    }
+
     .slider-media{
         display: flex;
-        flex-direction: column-reverse;
         width: 80%;
         margin: 0 auto;
     }
