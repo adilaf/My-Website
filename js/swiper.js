@@ -1,13 +1,19 @@
+var slideIndex = 1;
+showDivs(slideIndex);
+
 function plusDivs(n) {
-  var sliderWrapper = document.querySelector('.slider-wrapper');
-  var slideWidth = sliderWrapper.scrollWidth / slides.length; // Width of each slide
-  slideIndex += n;
+    showDivs(slideIndex += n);
+}
 
-  if (slideIndex > slides.length) { slideIndex = 1; }
-  if (slideIndex < 1) { slideIndex = slides.length; }
+function showDivs(n) {
+    var slides = document.getElementsByClassName("slide");
+    var sliderWrapper = document.querySelector('.slider-wrapper');
+    var totalSlides = slides.length;
 
-  sliderWrapper.scrollTo({
-      left: slideWidth * (slideIndex - 1),
-      behavior: 'smooth'
-  });
+    if (n > totalSlides) { slideIndex = 1; }
+    if (n < 1) { slideIndex = totalSlides; }
+
+    var newTransformValue = -(slideIndex - 1) * 100; // In percentage
+
+    sliderWrapper.style.transform = 'translateX(' + newTransformValue + '%)';
 }
