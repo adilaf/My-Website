@@ -208,8 +208,14 @@ button.prev, button.next {
 /*---------------------max-width 600px-----------------------*/
 @media screen and (max-width: 600px){
     
-    .slider-content{
-        margin: 0 auto;
+    .slider-media{
+        display: flex;
         width: 80%;
+        margin: 0 auto;
+    }
+    
+    .slider-description{
+        margin: 0 auto;
+        width: 100%;
     }
 }
