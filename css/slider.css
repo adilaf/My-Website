@@ -42,6 +42,7 @@
     margin:0 auto;
     height: 28rem;
     align-content: center;
+    z-index: 1;
 }
 
 .about-text, .slider-media {
@@ -164,7 +165,7 @@ button.prev, button.next {
     }
 
     .slider-content{
-        height: 45rem;
+        height: 50rem;
     }
 
 
