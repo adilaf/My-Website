@@ -18,7 +18,6 @@
 .slider-wrapper{
     display: flex;
     width: 100%;
-    position: relative;
 }
 
 .slide{
@@ -184,11 +183,7 @@ button.prev, button.next {
         width: 90%;
     }
 
-    .slider-wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-
+    
     .slide{
         display: flex;
         flex-direction: column;
