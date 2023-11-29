@@ -621,6 +621,7 @@ iframe{
    
     #current{
         width: 100%;
+        background-attachment: fixed;
     }
 
     .content-text2{
