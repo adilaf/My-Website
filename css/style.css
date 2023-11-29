@@ -197,7 +197,7 @@ img{
     background-size: cover;
 }
 
-.content-text2, .slider-content{
+.content-text2{
     display: flex;
     flex-direction: row;
     align-items: center;
