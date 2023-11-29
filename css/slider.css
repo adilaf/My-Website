@@ -22,12 +22,6 @@
     transition: transform 0.5s ease-in-out; /* Transition for smooth sliding */
 }
 
-.slider-wrapper {
-    display: flex;
-    width: calc(100% * number_of_slides); /* Replace number_of_slides with the actual number */
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-}
 .slide{
     display: flex;
     flex-direction: row;
