@@ -186,6 +186,7 @@ button.prev, button.next {
         display: flex;
         flex-direction: column;
         height: 50rem;
+        width: 90%;
     }
     .slide{
         display: flex;
