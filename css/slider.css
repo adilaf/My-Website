@@ -9,26 +9,14 @@
     margin:0 auto;
     background-color: #131313;
     border-radius: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: fade-in 2s ease-in-out forwards;
-    overflow: hidden;
-}
-
-
-#slide1{
     background-image: url("../Images/slide1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    animation: fade-in 2s ease-in-out forwards;
+    overflow: hidden;
 }
 
-#slide2{
-    background-image: url("../Images/slide2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
 
 
 #about-span{
@@ -82,7 +70,6 @@
     width: 100%;
     height: 26rem;
     justify-content: center;
-    color: #ffffff;
     text-align: center;
     align-items: center;
     align-content: center;
