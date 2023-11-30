@@ -68,9 +68,7 @@
     align-content: center;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
-    border-color: #ffffff;
-    border-width: 10px;
-    background-color: #fff7ec;
+    background-color: #ffffff;
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
