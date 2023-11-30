@@ -52,7 +52,7 @@
     height: 28rem;
     align-content: center;
     z-index: 1;
-    width: 70%;
+    width: 50%;
 }
 
 .slider-media {
@@ -116,7 +116,7 @@
 button.prev, button.next {
     position: fixed;
     display: inline-block;
-    background-color: #ffa631;
+    background-color: #225dff;
     border:rgba(0, 0, 0, 0.2);
     color: rgb(0, 0, 0);
     padding: 10px 20px;
@@ -133,14 +133,14 @@ button.prev, button.next {
   /*----------button animation----------*/
   
   button.prev:hover, button.next:hover {
-    background-color: #225dff;
+    background-color: #ffa631;
     color: #ffffff;
     transform: scale(110%);
     transition: transform 0.2s ease-in;
   }
 
   button.prev:active, button.next:active {
-    background-color: #ffa631;
+    background-color: #131313;
     transform: scale(100%);
     transition: transform 0.2s ease-out;
   }
