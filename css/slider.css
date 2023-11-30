@@ -9,7 +9,7 @@
     margin:0 auto;
     background-color: #131313;
     border-radius: 10px;
-    background-image: url("../Images/slide1.png");
+    background-image: url("../Images/aboutbg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -75,7 +75,7 @@
     align-content: center;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
-    background-color: #ffffff;
+    background-color: #fffffff9;
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
