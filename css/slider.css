@@ -10,7 +10,7 @@
     background-color: #131313;
     border-radius: 10px;
     background-image: url("../Images/slide2.png");
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     animation: fade-in 2s ease-in-out forwards;
