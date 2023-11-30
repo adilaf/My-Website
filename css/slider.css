@@ -12,6 +12,7 @@
     background-image: url("../Images/slide2.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     animation: fade-in 2s ease-in-out forwards;
     overflow: hidden;
 }
