@@ -34,9 +34,6 @@
     min-width: 100%; /* Make each slide take full width */
     box-sizing: border-box; /* Optional, to include padding and borders in width */
     transition: margin-left 0.5s ease-in-out; /* Smooth transition for sliding effect */
-    background-image: url("../Images/bg-about.png");
-    background-size: cover;
-    background-repeat: repeat;
 }
 
 .slider-content{
@@ -50,6 +47,9 @@
     align-content: center;
     z-index: 1;
     width: 80%;
+    background-image: url("../Images/bg-about.png");
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 .slider-media {
