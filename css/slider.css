@@ -8,6 +8,7 @@
     height: 30rem;
     margin:0 auto;
     border-radius: 5px;
+    box-shadow: 10 10 10 black;
     overflow: hidden;
 }
 
@@ -37,7 +38,6 @@
     margin-top: 1rem;
     margin:0 auto;
     height: 28rem;
-    width: 95%;
     align-content: center;
     z-index: 1;
 }
