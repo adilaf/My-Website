@@ -163,6 +163,7 @@ img{
     text-align:center;
     margin: 0 auto;
     background-color: #225dff;
+    font-size: 20px;
     color: #ffffff;
     border-radius: 5px 0px 0px 5px;
     font-family: 'Signika Negative', sans-serif;
@@ -175,6 +176,7 @@ img{
     font-family: 'Signika Negative', sans-serif;
     left: 10px;
     color: #5c5c5c;
+    font-size: 20px;
     border-radius: 0px 5px 5px 0px;;
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -248,7 +250,6 @@ img{
     text-align:center;
     margin: 2px;
     background-color: #6a6a6a;
-    font-size: 20px;
     color: #ffffff;
     border-radius: 5px 5px 5px 5px;
     font-family: 'Signika Negative', sans-serif;
@@ -258,7 +259,6 @@ img{
     padding: 5px 10px;
     text-align:center;
     margin: 2px;
-    font-size: 20px;
     background-color: #cbcbcb;
     color: #333;
     border-radius: 5px 5px 5px 5px;
@@ -660,7 +660,7 @@ iframe{
         padding: 5px 10px;
         text-align:center;
         margin: 2px;
-        background-color: #225dff;
+        background-color: #6a6a6a;
         color: #ffffff;
         border-radius: 5px 5px 5px 5px;
         font-family: 'Signika Negative', sans-serif;
