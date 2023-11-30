@@ -7,8 +7,6 @@
     width: 80%;
     height: 30rem;
     margin:0 auto;
-    background-color: #ffffff;
-    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     animation: fade-in 2s ease-in-out forwards;
