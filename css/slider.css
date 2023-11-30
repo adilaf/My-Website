@@ -7,7 +7,7 @@
     width: 80%;
     height: 34rem;
     margin:0 auto;
-    background-color: #225dff;
+    background-color: #131313;
     border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -205,11 +205,10 @@ button.prev, button.next {
 
 /*---------------------max-width 600px-----------------------*/
 @media screen and (max-width: 600px){
-    
     .slide{
-        min-width: 100%;
+        width: 100%;
     }
-
+    
     .slider-media{
         display: flex;
         max-width: 90%;
