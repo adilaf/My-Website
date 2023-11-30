@@ -170,7 +170,6 @@ button.prev, button.next {
         display: flex;
         flex-direction: column;
         height: 34rem;
-        width: 90%;
     }
 
     .slider-content{
