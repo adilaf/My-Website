@@ -22,6 +22,8 @@ function showDivs(n) {
 //For the parallax effect
 window.addEventListener('scroll', function() {
     var scrollPosition = window.pageYOffset;
-    var backgroundPosition = scrollPosition * 0.5; // Adjust the 0.5 to control the speed of the movement
+    var maxOffset = 200; // Maximum offset for the background image
+    var backgroundPosition = Math.min(scrollPosition * 0.5, maxOffset); // Use the smaller value to limit the movement
+
     document.getElementById('about').style.backgroundPositionY = backgroundPosition + 'px';
 });
