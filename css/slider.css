@@ -8,13 +8,6 @@
     height: 30rem;
     margin:0 auto;
     border-radius: 5px;
-    box-shadow: 10 10 10 black;
-    background-image: url("../Images/Kilimanjaro.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: fade-in 2s ease-in-out forwards;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
 }
 
@@ -31,7 +24,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    min-width: 90%; /* Make each slide take full width */
+    min-width: 65%; /* Make each slide take full width */
     box-sizing: border-box; /* Optional, to include padding and borders in width */
     transition: margin-left 0.5s ease-in-out; /* Smooth transition for sliding effect */
 }
@@ -41,8 +34,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
     margin:0 auto;
+    width: 95%;
     height: 28rem;
     align-content: center;
     z-index: 1;
