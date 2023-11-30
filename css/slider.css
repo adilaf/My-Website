@@ -13,7 +13,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 50%;
+    background-position: 50% 20%;
     animation: fade-in 2s ease-in-out forwards;
     overflow: hidden;
 }
