@@ -205,7 +205,7 @@ img{
     margin:0 auto;
     height: 30rem;
     align-content: center;
-    background-image: url(../Images/giraffe1.jpg);
+    /*background-image: url(../Images/giraffe1.jpg);*/
     background-size: cover; /* This will cover the entire element */
     background-repeat: no-repeat; /* This will prevent the image from repeating */
     background-position: 50% 50%; /* This centers the image in the element */
@@ -219,7 +219,7 @@ img{
     margin: 0 auto;
     height: 30rem;
     align-content: center;
-    background-image: url(../Images/paper-3155438_1920.jpg);
+    /*background-image: url(../Images/paper-3155438_1920.jpg);*/
     background-size: cover; /* This will cover the entire element */
     background-repeat: no-repeat; /* This will prevent the image from repeating */
     background-position: 50% 50%; /* This centers the image in the element */
