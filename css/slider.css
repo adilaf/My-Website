@@ -78,6 +78,7 @@
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+
 .slider-description:hover {
     transform: scale(1.03);
     background-color: #ffffff;
@@ -212,7 +213,7 @@ button.prev, button.next {
 
 /*---------------------max-width 600px-----------------------*/
 @media screen and (max-width: 600px){
-    .slide{
+    #about{
         width: 100%;
     }
 
