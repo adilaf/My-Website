@@ -15,6 +15,11 @@
     overflow: hidden;
 }
 
+#about-span{
+    position: absolute;
+    margin: 0 auto;
+}
+
 .slider-wrapper {
     display: flex;
     position: relative;
