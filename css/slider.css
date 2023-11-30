@@ -20,7 +20,7 @@
 
 .slider-wrapper {
     display: flex;
-    width: 100%;
+    width: 80%;
     position: relative;
     transition: transform 0.5s ease-in-out; /* Transition for smooth sliding */
 }
@@ -30,7 +30,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width:90%;
     height: 100%;
     min-width: 100%; /* Make each slide take full width */
     box-sizing: border-box; /* Optional, to include padding and borders in width */
