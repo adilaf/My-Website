@@ -75,13 +75,12 @@
     border-radius: 5px;
     box-shadow: 10 10 10 black;
     background-color: #ffffffe9;
-    animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slider-description:hover{
-    transform: scale(105%);
-    animation: ease-in ;
+    transform: scale(102%);
+    animation: ease-in-out forwards;
     background-color: #ffffff;
 }
 
