@@ -9,7 +9,7 @@
     margin:0 auto;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
-    background-color: #225dff;
+    background-color: #ffffff;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,6 @@
 
 .slider-wrapper {
     display: flex;
-    width: 80%;
     position: relative;
     transition: transform 0.5s ease-in-out; /* Transition for smooth sliding */
 }
@@ -204,6 +203,10 @@ button.prev, button.next {
 /*---------------------max-width 600px-----------------------*/
 @media screen and (max-width: 600px){
     
+    .slide{
+        min-width: 100%;
+    }
+
     .slider-media{
         display: flex;
         max-width: 90%;
