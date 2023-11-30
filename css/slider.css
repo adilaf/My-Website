@@ -84,6 +84,12 @@
     background-color: #ffffff;
 }
 
+.slider-description:active{
+    transform: scale(100%);
+    transition: transform 0.2s ease-in-out;
+    background-color: #ffffffe9;
+}
+
 .slider-media{
     display: flex;
     flex-direction: row;
