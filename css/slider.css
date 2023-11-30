@@ -7,8 +7,9 @@
     width: 80%;
     height: 30rem;
     margin:0 auto;
+    background-image: url("../Images/bg-about.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     animation: fade-in 2s ease-in-out forwards;
     overflow: hidden;
 }
