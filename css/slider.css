@@ -14,6 +14,8 @@
     background-repeat: no-repeat;
     animation: fade-in 2s ease-in-out forwards;
     overflow: hidden;
+    animation: fade-in 0.5s ease-in;
+    transition: transform 0.5s ease-in;
 }
 
 
