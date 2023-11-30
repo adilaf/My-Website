@@ -7,7 +7,7 @@
     width: 80%;
     height: 30rem;
     margin:0 auto;
-    background-color: #464646;
+    background-color: #ffffff;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,6 +30,7 @@
     min-width: 55%; /* Make each slide take full width */
     box-sizing: border-box; /* Optional, to include padding and borders in width */
     transition: margin-left 0.5s ease-in-out; /* Smooth transition for sliding effect */
+    background-color: #464646;
 }
 
 .slider-content{
@@ -64,7 +65,7 @@
     align-content: center;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
-    background-color: rgba(247, 247, 247);
+    background-color: rgba(247, 247, 247,0.8);
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -81,7 +82,7 @@
     animation: fade-in 1s ease-in-out forwards;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
-    background-color: rgba(247, 247, 247);
+    background-color: rgba(247, 247, 247,0.8);
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
