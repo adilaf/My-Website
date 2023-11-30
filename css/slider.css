@@ -24,7 +24,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    min-width: 65%; /* Make each slide take full width */
+    min-width: 90%; /* Make each slide take full width */
     box-sizing: border-box; /* Optional, to include padding and borders in width */
     transition: margin-left 0.5s ease-in-out; /* Smooth transition for sliding effect */
 }
@@ -34,9 +34,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
     margin:0 auto;
-    width: 95%;
     height: 28rem;
+    width: 95%;
     align-content: center;
     z-index: 1;
 }
