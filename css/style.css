@@ -247,7 +247,8 @@ img{
     padding: 5px 10px;
     text-align:center;
     margin: 2px;
-    background-color: #5c5c5c;
+    background-color: #6a6a6a;
+    font-size: 20px;
     color: #ffffff;
     border-radius: 5px 5px 5px 5px;
     font-family: 'Signika Negative', sans-serif;
@@ -257,6 +258,7 @@ img{
     padding: 5px 10px;
     text-align:center;
     margin: 2px;
+    font-size: 20px;
     background-color: #cbcbcb;
     color: #333;
     border-radius: 5px 5px 5px 5px;
