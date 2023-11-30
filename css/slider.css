@@ -47,6 +47,7 @@
     height: 28rem;
     align-content: center;
     z-index: 1;
+    width: 80%;
 }
 
 .slider-media {
