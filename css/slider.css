@@ -15,6 +15,22 @@
     overflow: hidden;
 }
 
+
+#slide1{
+    background-image: url("../Images/slide1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#slide1{
+    background-image: url("../Images/slide2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
 #about-span{
     margin: 0 auto;
     text-align: center;
@@ -208,7 +224,7 @@ button.prev, button.next {
     .slide{
         width: 100%;
     }
-    
+
     .slider-media{
         display: flex;
         max-width: 90%;
