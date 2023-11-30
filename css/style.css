@@ -240,7 +240,7 @@ img{
     align-content: center;
     border-radius: 5px;
     box-shadow: 10 10 10 black;
-    background-color: rgba(247, 247, 247,0.9);
+    background-color: rgba(247, 247, 247);
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -250,7 +250,7 @@ img{
     padding: 5px 10px;
     text-align:center;
     margin: 2px;
-    background-color: #ffa631;
+    background-color: #7a7a7a;
     color: #ffffff;
     border-radius: 5px 5px 5px 5px;
     font-family: 'Signika Negative', sans-serif;
