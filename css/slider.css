@@ -47,9 +47,6 @@
     align-content: center;
     z-index: 1;
     width: 80%;
-    background-image: url("../Images/bg-about.png");
-    background-size: cover;
-    background-repeat: repeat;
 }
 
 .slider-media {
@@ -74,6 +71,9 @@
     background-color: rgba(247, 247, 247,0.8);
     animation: fade-in 2s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../Images/bg-about.png");
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 
