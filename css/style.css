@@ -761,6 +761,10 @@ iframe{
         height: 17rem;
     }
 
+    #current{
+        background-size: 50%;
+    }
+
 }
 
 
