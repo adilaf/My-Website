@@ -9,7 +9,7 @@ footer{
     height: 25rem;
     align-items: center;
     text-align: center;
-    background-color:#ffa631;
+    background-color: #101010;;
 }
 
 #contact p{
@@ -25,9 +25,7 @@ footer{
 #logos2{
     display: flex;
     position: absolute;
-    margin-top: 1rem;
-    left: 40%;
-    width: 110px;
+    margin: 0 auto;
     box-shadow: none;
 }
 
