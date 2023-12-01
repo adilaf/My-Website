@@ -11,7 +11,7 @@
     border-radius: 10px;
     background-image: url("../Images/Self-Portrait.jpg");
     background-size: auto;
-    background-position: 35% 50%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     animation: fade-in 2s ease-in-out forwards;
@@ -77,7 +77,7 @@
     align-items: center;
     align-content: center;
     border-radius: 5px;
-    background-color: #ffffffcf;
+    background-color: #ffffffe6;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
