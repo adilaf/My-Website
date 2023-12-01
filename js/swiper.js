@@ -24,4 +24,5 @@ window.addEventListener('scroll', function() {
     var scrollPosition = window.pageYOffset;
     var backgroundPosition = scrollPosition * -0.7; // Adjust the 0.5 to control the speed of the movement
     document.getElementById('about').style.backgroundPositionY = backgroundPosition + 'px';
+    document.getElementById('current').style.backgroundPositionY = backgroundPosition + 'px';
 });
