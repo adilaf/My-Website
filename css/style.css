@@ -196,9 +196,8 @@ img{
     align-content: center;
     border-radius: 10px;
     animation: fade-in 2s ease-in-out forwards;
-    background: linear-gradient(180deg, rgba(86, 99, 119, 0.90) 0%, rgba(23, 26, 31, 0.90) 100%);
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-image: url("../Images/pointer.png");
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
