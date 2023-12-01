@@ -1,15 +1,16 @@
 footer{
     margin-top: 2rem;
+    background-color: #101010;
 }
 
 #contact{
     display: flex;
     flex-direction: column;
+    color: #ffffff;
     max-width: 100%;
     height: 25rem;
     align-items: center;
     text-align: center;
-    background-color: #101010;;
 }
 
 #contact p{
@@ -27,6 +28,7 @@ footer{
     position: absolute;
     margin: 0 auto;
     box-shadow: none;
+    width: 3rem;
 }
 
 #logos2:hover{
@@ -42,9 +44,8 @@ footer{
 #logos3{
     display: flex;
     position: absolute;
-    margin-top: 1rem;
-    left: 50%;
-    width: 110px;
+    margin: 0 auto;
+    width: 3rem;
     box-shadow: none;
 }
 
