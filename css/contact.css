@@ -11,7 +11,7 @@ footer{
     height: 25rem;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding-top: 2rem;
 }
 
 #contact p{
@@ -26,15 +26,12 @@ footer{
 }
 
 .contact-icons{
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
+    padding: 1rem;
 }
 
 #logos2{
     width: 3rem;
+    margin: 0.5rem;
 }
 
 #logos2:hover{
@@ -49,6 +46,7 @@ footer{
 
 #logos3{
     width: 3rem;
+    margin: 0.5rem;
 }
 
 #logos3:hover{
