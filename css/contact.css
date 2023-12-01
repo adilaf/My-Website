@@ -58,3 +58,10 @@ footer{
     transform: scale(100%);
     transition: transform 0.2s ease-in-out;
 }
+
+/*--Media query--*/
+@media screen and (max-width: 600px){
+    #contact-info, #contact p{
+        width: 18rem;
+    }
+}
