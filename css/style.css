@@ -72,10 +72,9 @@ nav{
 
 
 #label{
-    padding: 2.5px;
+    padding: 5px 20px;
     text-align: center;
-    width: 150px;
-    height: 40px;
+    justify-content: center;
     box-sizing: border-box;
     color:#E5E5E5;
     background-color: #225dff;
@@ -104,6 +103,11 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    justify-content: center;
+    padding: 5px 20px;
+    background-color: #E5E5E5;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 15px black;
 }
 
 :hover.link{
@@ -116,15 +120,6 @@ nav{
     color: #E5E5E5;
     transform: scale(100%);
     animation: ease-in;
-}
-
-
-.typewriter{
-    padding: 5px 20px;
-    background-color: #E5E5E5;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 5px 5px 15px black;
-    font-weight: 400;
 }
 
 #video1{
