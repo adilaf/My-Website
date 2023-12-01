@@ -13,7 +13,6 @@ h1{
     font-size: clamp(5rem, 1rem + 8vw, 7rem);
     text-shadow: 5px 5px 20px black;
     line-height: 100px;
-    animation: fade-in 1s ease-in-out forwards;
 }
 
 
@@ -64,5 +63,10 @@ text{
     font-size: 18px;
 }
 
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 4; transform: translateY(0); }
+}
 
 
