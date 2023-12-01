@@ -77,9 +77,6 @@ nav{
     width: 150px;
     height: 40px;
     box-sizing: border-box;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 35px;
-    font-weight: 700;
     color:#E5E5E5;
     background-color: #225dff;
     box-shadow: 5px 5px 15px black;
@@ -107,7 +104,6 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #ffa631;
 }
 
 :hover.link{

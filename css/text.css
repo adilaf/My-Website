@@ -13,8 +13,7 @@ h1{
     font-size: clamp(5rem, 1rem + 8vw, 7rem);
     text-shadow: 5px 5px 20px black;
     line-height: 100px;
-    animation: fade-in 1.5s ease-in forwards;
-
+    animation: fade-in 1s ease-in-out forwards;
 }
 
 
@@ -24,7 +23,6 @@ h2{
     font-size: 75px;
     text-align: center;
     opacity: 0;
-    animation: fade-in 1s ease-in-out forwards;
 }
 
 
@@ -33,7 +31,6 @@ h3{
     font-family: 'Signika Negative', sans-serif;
     line-height: 35px;
     text-decoration: none;
-    animation: fade-in 1s ease-in-out forwards;
 }
 
 h4{
@@ -50,8 +47,6 @@ p{
     font-weight: 100;
     font-size: 16px;
     line-height: 20px;
-    animation: fade-in 1s ease-in-out forwards;
-
 }
 
 .link{
