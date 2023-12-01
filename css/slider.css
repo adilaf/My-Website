@@ -225,11 +225,12 @@ button.prev, button.next {
     #about{
         width: 100%;
         border-radius: 0;
-    }
-
-    .slider-content{
         height: 80%;
     }
+
+    .slider-wrapper{
+        height: 20rem
+    } 
 
     .slider-media{
         display: flex;
