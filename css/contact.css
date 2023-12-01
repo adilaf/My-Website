@@ -11,10 +11,12 @@ footer{
     height: 25rem;
     align-items: center;
     text-align: center;
+    padding: 2rem;
 }
 
 #contact p{
     text-align: center;
+    width: 25rem;
 }
 
 #contact-info{
@@ -23,11 +25,15 @@ footer{
     animation: fade-in 2s ease-in-out forwards;
 }
 
-#logos2{
+.contact-icons{
     display: flex;
-    position: absolute;
+    flex-direction: row;
     margin: 0 auto;
-    box-shadow: none;
+    align-items: center;
+    text-align: center;
+}
+
+#logos2{
     width: 3rem;
 }
 
@@ -42,11 +48,7 @@ footer{
 }
 
 #logos3{
-    display: flex;
-    position: absolute;
-    margin: 0 auto;
     width: 3rem;
-    box-shadow: none;
 }
 
 #logos3:hover{
