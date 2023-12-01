@@ -197,7 +197,8 @@ img{
     border-radius: 10px;
     animation: fade-in 2s ease-in-out forwards;
     background-color: #2A2A2A;
-    background-image: url("../Images/pointer.png");
+    background-image: url("../Images/icons.png");
+    background-size: 15%;
     background-repeat: repeat;
     background-attachment: fixed;
 }
