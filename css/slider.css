@@ -222,18 +222,12 @@ button.prev, button.next {
 
 /*---------------------max-width 600px-----------------------*/
 @media screen and (max-width: 600px){
-    #about-wrapper{
-
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
+ 
     #about{
         width: 100%;
         border-radius: 0;
-        height: 80%;
     }
-
+    
     .slider-media{
         display: flex;
         max-width: 90%;
@@ -243,6 +237,5 @@ button.prev, button.next {
     .slider-description{
         margin: 0 auto;
         width: 100%;
-        height: 18rem;
     }
 }
