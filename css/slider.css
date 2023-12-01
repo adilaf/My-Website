@@ -219,6 +219,7 @@ button.prev, button.next {
 @media screen and (max-width: 600px){
     #about{
         width: 100%;
+        border-radius: 0;
     }
 
     .slider-media{
