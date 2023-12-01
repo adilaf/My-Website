@@ -196,6 +196,7 @@ img{
     align-content: center;
     border-radius: 10px;
     animation: fade-in 2s ease-in-out forwards;
+    background-color: #2A2A2A;
     background-image: url("../Images/pointer.png");
     background-repeat: repeat;
     background-attachment: fixed;
