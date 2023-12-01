@@ -196,12 +196,7 @@ img{
     align-content: center;
     border-radius: 10px;
     animation: fade-in 2s ease-in-out forwards;
-    background-color: #333;
-    background-image: url("../Images/featured\ current.png");
-    background-size: auto;
-    background-position: 50% 30%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: linear-gradient(180deg, rgba(86, 99, 119, 0.90) 0%, rgba(23, 26, 31, 0.90) 100%);
 }
 
 .recent-content2{
