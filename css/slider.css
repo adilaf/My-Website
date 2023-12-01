@@ -1,9 +1,14 @@
 
 /*=================About Page===================*/
+
+#about-wrapper{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 #about{
     display: flex;
     flex-direction: row;
-    padding: 0;
     width: 80%;
     height: 34rem;
     margin:0 auto;

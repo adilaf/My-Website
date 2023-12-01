@@ -139,6 +139,7 @@ nav{
     object-position: 50% 50%;
     opacity: 100%;
     animation: infinite;
+    border-radius: 0;
 }
 
 
