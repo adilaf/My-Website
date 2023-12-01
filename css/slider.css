@@ -2,8 +2,7 @@
 /*=================About Page===================*/
 
 #about-wrapper{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 #about{
@@ -222,10 +221,12 @@ button.prev, button.next {
 
 /*---------------------max-width 600px-----------------------*/
 @media screen and (max-width: 600px){
- 
+    #about-wrapper{
+        margin: 1rem;
+    }
+
     #about{
         width: 100%;
-        border-radius: 0;
     }
     
     .slider-media{
