@@ -692,11 +692,7 @@ iframe{
 /*---------------------Max-Width 600px-----------------------*/
 @media screen and (max-width: 600px){
     #video1{
-        height: 40rem;
-    }
-
-    #home{
-        height: 40rem;
+        height: 36rem;
     }
 
     #label-box{
@@ -712,6 +708,7 @@ iframe{
     #story{
         top: 19rem;
         left: 50%;
+        width: 13rem;
         transform: translate(-50%, -50%);
         text-align: center;
     }
