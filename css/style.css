@@ -84,8 +84,8 @@ nav{
 
 #about-button{
     font-size: 20px;
-    color: #E5E5E5;
-    background-color: #225dff;
+    color: #2A2A2A;
+    background-color: #E5E5E5;
     border-radius: 5px;
     text-align: center;
     padding: 5px 20px;
@@ -99,7 +99,7 @@ nav{
 #view{
     font-size: 20px;
     color: #E5E5E5;
-    background-color: #2A2A2A;
+    background-color: #225dff;
     text-align: center;
     padding: 5px 20px;
     border-radius: 5px;
