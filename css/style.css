@@ -79,17 +79,17 @@ nav{
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    gap: 20px; /* Adjust for spacing between buttons */
+    gap: 0.6rem; /* Adjust for spacing between buttons */
 }
 
 #about-button{
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E5E5;
-    background-color: #225dff;
+    background-color: #2A2A2A;
     text-align: center;
     padding: 5px 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px black;
+    border-color: #E5E5E5;
+    border-radius: 5px;
     transition: background-color 0.2s ease-in-out;
     text-decoration: none; /* Removes underline from links */
     display: flex;
@@ -98,13 +98,13 @@ nav{
 }
 
 #view{
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E5E5;
-    background-color: #2A2A2A;
+    background-color: #225dff;
+    border-color: #E5E5E5;
     text-align: center;
     padding: 5px 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px black;
+    border-radius: 5px;
     transition: background-color 0.2s ease-in-out;
     text-decoration: none; /* Removes underline from links */
     display: flex;
