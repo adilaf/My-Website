@@ -23,14 +23,6 @@
     
 }
 
-#recent iframe, 
-#studentWork iframe, 
-#filmmaking iframe, 
-#photography iframe, 
-#animation iframe {
-    margin: 2rem;
-}
-
 
 @media screen and (max-width: 1000px){
     #button-link{
