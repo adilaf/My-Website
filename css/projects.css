@@ -12,12 +12,22 @@
     flex-direction: row;
 }
 
+#recent, 
+#studentWork, 
+#filmmaking, 
+#photography, 
+#animation {
+    width: 60%;
+    margin: 2rem;
+}
+
 #recent iframe, 
 #studentWork iframe, 
 #filmmaking iframe, 
 #photography iframe, 
 #animation iframe {
-    width: 45%;
+    width: 60%;
+
 }
 
 
