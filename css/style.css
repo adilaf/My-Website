@@ -62,29 +62,6 @@ nav{
 
 /*=====================HOME SECTION======================*/
 
-#label-box {
-    margin: 0 auto;
-    position: absolute;
-    top: 19rem;
-    left: 50%;
-    transform: translateX(-50%); /* Centering the element */
-}
-
-
-#label{
-    padding: 5px 20px;
-    text-align: center;
-    justify-content: center;
-    box-sizing: border-box;
-    font-size: 18px;
-    color:#E5E5E5;
-    background-color: #225dff;
-    box-shadow: 5px 5px 15px black;
-    border-radius: 10px 10px 10px 10px;
-}
-
-
-
 #heading{
     display: block;
     margin: 0 auto;
@@ -94,33 +71,45 @@ nav{
     top: 25rem;
 }
 
-#button-container{
-    top: 32rem;
+#button-container {
+    top: 50%;  /* Adjust as needed for exact positioning */
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: row;
+    justify-content: center;
     position: absolute;
-    margin: 0 auto;
+    gap: 20px; /* Adjust for spacing between buttons */
 }
 
 #about-button{
+    font-size: 18px;
     color: #E5E5E5;
     background-color: #225dff;
     text-align: center;
-    justify-content: center;
-    border-radius: 10px 10px 10px 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 15px black;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none; /* Removes underline from links */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #view{
     font-size: 18px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    justify-content: center;
-    padding: 5px 20px;
     color: #E5E5E5;
     background-color: #2A2A2A;
-    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 15px black;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none; /* Removes underline from links */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #view:hover, #about-button:hover{
@@ -140,6 +129,9 @@ nav{
     color: #E5E5E5;
     background-color: #225dff;
 }
+
+
+
 
 :hover.link{
     color: #225dff;;
