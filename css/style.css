@@ -92,9 +92,12 @@ nav{
 }
 
 #about-button{
+    font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
     color: #2A2A2A;
     background-color: #E5E5E5;
+    border-style: solid;
+    border-color: #2A2A2A;
     border-radius: 5px;
     text-align: center;
     padding: 5px 20px;
@@ -106,9 +109,12 @@ nav{
 }
 
 #view{
+    font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
     color: #E5E5E5;
     background-color: #225dff;
+    border-style: solid;
+    border-color: #2A2A2A;
     text-align: center;
     padding: 5px 20px;
     border-radius: 5px;
