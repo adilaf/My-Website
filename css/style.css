@@ -102,9 +102,17 @@ nav{
     text-align: center;
     justify-content: center;
     padding: 5px 20px;
+    color: #2A2A2A;
     background-color: #E5E5E5;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 15px black;
+}
+
+#story:hover{
+    background-color: #225dff;
+    animation: ease-in;
+    transition: transform 0.2s ease-in-out;
+    color:#ffffff;
 }
 
 :hover.link{
@@ -708,7 +716,7 @@ iframe{
     #story{
         top: 19rem;
         left: 50%;
-        width: 13rem;
+        width: 15rem;
         transform: translate(-50%, -50%);
         text-align: center;
     }
