@@ -210,7 +210,7 @@ img{
 /*  SOME AREAS of the code in this section was AI assissted and 
     elemnets from W3Schools may have also been used   */
 
-#current{
+.current{
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -407,7 +407,7 @@ iframe{
 /*---------------------Max-Width 1000px-----------------------*/
 @media screen and (max-width: 1000px){
    
-    #current{
+    .current{
         width: 100%; 
     }
 
@@ -529,7 +529,7 @@ iframe{
         height: 17rem;
     }
 
-    #current{
+    .current{
         background-size: 50%;
     }
 
