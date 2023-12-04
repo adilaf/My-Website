@@ -102,17 +102,23 @@ nav{
     text-align: center;
     justify-content: center;
     padding: 5px 20px;
-    color: #2A2A2A;
+    color: #6a6a6a;
     background-color: #E5E5E5;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 15px black;
 }
 
 #story:hover{
-    background-color: #225dff;
+    background-color: #ffa631;
     animation: ease-in;
     transition: transform 0.2s ease-in-out;
     color:#ffffff;
+}
+
+
+#story:active{
+    color: #6a6a6a;
+    background-color: #E5E5E5;
 }
 
 :hover.link{
@@ -763,7 +769,7 @@ iframe{
 
 
 /*---------------------Max-Width 526px-----------------------*/
-@media screen and (max-width: 526px){
+@media screen and (max-width: 539px){
     #story{
         top:25rem;
     }
