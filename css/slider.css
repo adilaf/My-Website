@@ -22,7 +22,12 @@
     overflow: hidden;
 }
 
-
+.about-tags{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 2rem;
+}
 
 #about-span{
     margin: 0 auto;
@@ -186,7 +191,7 @@ button.prev, button.next {
         flex-direction: column;
         height: 35rem;
     }
-
+    
     .slider-content{
         display: flex;
         flex-direction: column;
