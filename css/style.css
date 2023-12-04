@@ -365,13 +365,10 @@ iframe{
  }
 
 
-.project-link{
-    display: block;
-}
-
 #projects{
     display: flex;
     flex-direction: column;
+    padding: 5rem;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
