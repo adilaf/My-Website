@@ -371,31 +371,12 @@ iframe{
 
 #projects{
     display: flex;
-    margin: 0 auto;
-    width: 90vw;
-    height: 170vh;
     flex-direction: column;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
 }
 
-  
-#projects.fade-in {
-    opacity: 1;
-}
-
-#project-heading{
-    text-align: center;
-    padding-top: 30px;
-}
-
-#projects img{
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
 
 .caption{
     display: flex;
