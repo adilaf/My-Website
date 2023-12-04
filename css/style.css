@@ -98,7 +98,7 @@ nav{
     background-color: #E5E5E5;
     border-style: solid;
     border-color: #2A2A2A;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     padding: 5px 20px;
     transition: background-color 0.2s ease-in-out;
@@ -117,7 +117,7 @@ nav{
     border-color: #2A2A2A;
     text-align: center;
     padding: 5px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.2s ease-in-out;
     text-decoration: none; /* Removes underline from links */
     display: flex;
