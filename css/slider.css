@@ -24,8 +24,10 @@
 
 .about-tags{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
+    width: 15rem;
+    margin: 0 auto;
 }
 
 #about-span{
@@ -192,8 +194,6 @@ button.prev, button.next {
     }
     
     .about-tags{
-        display: flex;
-        flex-direction: column;
         transform: scale(0.9);
     }
 
@@ -237,12 +237,6 @@ button.prev, button.next {
 
     #about{
         width: 100%;
-    }
-    
-    .about-tags{
-        display: flex;
-        flex-direction: column;
-        transform: scale(0.75);
     }
 
     .slider-media{
