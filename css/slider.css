@@ -2,7 +2,7 @@
 /*=================About Page===================*/
 
 #about-wrapper{
-    margin: 2rem;
+    margin: 4rem;
 }
 
 #about{
@@ -192,7 +192,7 @@ button.prev, button.next {
         flex-direction: column;
         justify-content: center;
         width: 90%;
-        height: 32rem;
+        height: 30rem;
     }
 
     .slider-media{
@@ -220,6 +220,10 @@ button.prev, button.next {
 
 /*---------------------max-width 600px-----------------------*/
 @media screen and (max-width: 600px){
+
+    #about-wrapper{
+        margin: 2rem;
+    }
 
     #about{
         width: 100%;
