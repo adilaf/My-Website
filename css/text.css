@@ -41,7 +41,7 @@ h4{
     
 }
 
-p{
+p, li{
     font-family: 'Signika Negative', sans-serif;
     font-weight: 100;
     font-size: 16px;
@@ -68,5 +68,4 @@ text{
     from { opacity: 0; transform: translateY(-50px); }
     to { opacity: 4; transform: translateY(0); }
 }
-
 
