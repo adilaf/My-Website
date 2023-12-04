@@ -94,7 +94,7 @@ nav{
 }
 
 
-#story{
+#view{
     position: absolute;
     top: 32rem;
     left: 50%;
@@ -103,20 +103,20 @@ nav{
     justify-content: center;
     padding: 5px 20px;
     color: #2A2A2A;
-    background-color: #E5E5E5;
+    background-color: #ffa631;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 15px black;
 }
 
-#story:hover{
-    background-color: #ffa631;
+#view:hover{
+    background-color: #225dff;
     animation: ease-in;
     transition: transform 0.2s ease-in-out;
     color:#ffffff;
 }
 
 
-#story:active{
+#view:active{
     color: #6a6a6a;
     background-color: #E5E5E5;
 }
@@ -719,7 +719,7 @@ iframe{
         top: 12rem;
     }
 
-    #story{
+    #view{
         top: 19rem;
         left: 50%;
         width: 15rem;
@@ -770,7 +770,7 @@ iframe{
 
 /*---------------------Max-Width 526px-----------------------*/
 @media screen and (max-width: 539px){
-    #story{
+    #view{
         top:25rem;
     }
 }
