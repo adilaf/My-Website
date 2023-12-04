@@ -191,7 +191,7 @@ button.prev, button.next {
         height: 35rem;
     }
     
-    #about-tag{
+    #about-tags{
         display: flex;
         transform: scale(0.75);
     }
@@ -238,6 +238,11 @@ button.prev, button.next {
         width: 100%;
     }
     
+    #about-tags{
+        display: flex;
+        flex-direction: column;
+        transform: scale(0.75);
+    }
 
     .slider-media{
         display: flex;
