@@ -12,6 +12,15 @@
     flex-direction: row;
 }
 
+#recent iframe, 
+#studentWork iframe, 
+#filmmaking iframe, 
+#photography iframe, 
+#animation iframe {
+    width: 45%;
+}
+
+
 @media screen and (max-width: 1000px){
     #button-link{
         width: 100%;
