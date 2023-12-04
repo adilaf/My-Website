@@ -96,7 +96,7 @@ nav{
 
 #story{
     position: absolute;
-    top: 34rem;
+    top: 32rem;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -714,8 +714,9 @@ iframe{
     }
 
     #story{
-        top: 20rem;
+        top: 19rem;
         left: 50%;
+        width: 15rem;
         transform: translate(-50%, -50%);
         text-align: center;
     }
@@ -762,7 +763,7 @@ iframe{
 
 
 /*---------------------Max-Width 526px-----------------------*/
-@media screen and (max-width: 539px){
+@media screen and (max-width: 526px){
     #story{
         top:25rem;
     }
