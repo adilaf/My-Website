@@ -17,8 +17,10 @@
 #filmmaking, 
 #photography, 
 #animation {
+    display: flex;
+    flex-direction: column;
     width: 60%;
-    margin: 2rem;
+    
 }
 
 #recent iframe, 
@@ -27,7 +29,7 @@
 #photography iframe, 
 #animation iframe {
     width: 60%;
-
+    margin: 2rem;
 }
 
 
