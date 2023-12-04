@@ -45,14 +45,14 @@ nav{
     flex-basis: 0;
     margin-top: 10px;
     padding: 15px;
-    color:#ffa631;
+    color:#E5E5E5;
     text-decoration: none;
     align-items: center;
     text-align: center;
   }
 #hamitems a:hover { 
     background: #225dff;
-    color: #E5E5E5;
+    color: #ffa631;
 }
   
   /* (C) HIDE HAMBURGER */
