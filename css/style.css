@@ -94,11 +94,24 @@ nav{
     top: 25rem;
 }
 
+#button-container{
+    top: 32rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#about-button{
+    color: #E5E5E5;
+    background-color: #225dff;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 15px black;
+}
 
 #view{
-    position: absolute;
-    top: 32rem;
-    left: 50%;
     font-size: 18px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -110,7 +123,7 @@ nav{
     box-shadow: 5px 5px 15px black;
 }
 
-#view:hover{
+#view:hover, #about-button:hover{
     background-color: #ffa631;
     animation: ease-in;
     transition: transform 0.2s ease-in-out;
@@ -119,8 +132,13 @@ nav{
 
 
 #view:active{
-    color: #6a6a6a;
-    background-color: #E5E5E5;
+    color: #E5E5E5;
+    background-color: #2A2A2A;
+}
+
+#about-button:active{
+    color: #E5E5E5;
+    background-color: #225dff;
 }
 
 :hover.link{
