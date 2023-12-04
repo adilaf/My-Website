@@ -8,7 +8,7 @@
 
 
 h1{
-    font-family: 'Inter', sans-serif;
+    font-family:'Rubik';
     color: #E5E5E5;
     font-size: clamp(5rem, 1rem + 8vw, 7rem);
     text-shadow: 5px 5px 20px black;
