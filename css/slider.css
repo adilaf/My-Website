@@ -22,6 +22,10 @@
     overflow: hidden;
 }
 
+#about-container{
+    width: 100%;
+}
+
 .about-tags{
     display: flex;
     flex-direction: column;
