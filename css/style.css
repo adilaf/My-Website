@@ -72,7 +72,7 @@ nav{
 }
 
 #button-container {
-    top: 50%;  /* Adjust as needed for exact positioning */
+    top: 34rem;  /* Adjust as needed for exact positioning */
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -721,6 +721,12 @@ iframe{
         height: 36rem;
     }
 
+    #button-container {
+        top: 26rem;
+        display: flex;
+        flex-direction: column; 
+    }
+
     #label-box{
         top: 6rem;
     }
@@ -729,14 +735,6 @@ iframe{
         display: flex;
         flex-direction: column;
         top: 12rem;
-    }
-
-    #view{
-        top: 19rem;
-        left: 50%;
-        width: 15rem;
-        transform: translate(-50%, -50%);
-        text-align: center;
     }
 
     .tags{
@@ -779,10 +777,3 @@ iframe{
 
 }
 
-
-/*---------------------Max-Width 526px-----------------------*/
-@media screen and (max-width: 539px){
-    #view{
-        top:25rem;
-    }
-}
