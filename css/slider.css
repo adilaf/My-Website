@@ -28,9 +28,17 @@
     text-align: center;
     width: 15rem;
     margin: 0 auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.tag-spans{
+    padding: 5px 10px;
+    text-align:center;
+    margin: 2px;
+    background-color: #E5E5E5;
+    color: #333;
+    border-radius: 5px;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 #about-span{
