@@ -26,7 +26,6 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin: 2rem;
 }
 
 #about-span{
@@ -234,7 +233,7 @@ button.prev, button.next {
         width: 100%;
     }
     
-    .about-tags{
+    #about-tag{
         display: flex;
         flex-direction: column;
         transform: scale(0.75);
