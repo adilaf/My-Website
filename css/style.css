@@ -76,6 +76,7 @@ nav{
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
+    font-size: 18px;
     color:#E5E5E5;
     background-color: #225dff;
     box-shadow: 5px 5px 15px black;
@@ -98,18 +99,19 @@ nav{
     position: absolute;
     top: 32rem;
     left: 50%;
+    font-size: 18px;
     transform: translate(-50%, -50%);
     text-align: center;
     justify-content: center;
     padding: 5px 20px;
-    color: #2A2A2A;
-    background-color: #ffa631;
+    color: #E5E5E5;
+    background-color: #2A2A2A;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 15px black;
 }
 
 #view:hover{
-    background-color: #225dff;
+    background-color: #ffa631;
     animation: ease-in;
     transition: transform 0.2s ease-in-out;
     color:#ffffff;
