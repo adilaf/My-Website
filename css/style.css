@@ -86,6 +86,7 @@ nav{
     font-size: 20px;
     color: #2A2A2A;
     background-color: #E5E5E5;
+    border-radius: 5px;
     text-align: center;
     padding: 5px 20px;
     transition: background-color 0.2s ease-in-out;
@@ -719,7 +720,7 @@ iframe{
     }
 
     #button-container {
-        top: 26rem;
+        top: 28rem;
         width: 100%;
     }
 
