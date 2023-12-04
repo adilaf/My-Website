@@ -234,6 +234,12 @@ button.prev, button.next {
         width: 100%;
     }
     
+    .about-tags{
+        display: flex;
+        flex-direction: column;
+        transform: scale(0.75);
+    }
+
     .slider-media{
         display: flex;
         max-width: 90%;
