@@ -30,13 +30,13 @@
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: #ffffff;
 }
 
 #about-span{
     margin: 0 auto;
     text-align: center;
     margin-top: 2rem;
-    background-color: #ffffff;
     border-radius: 5px;
 }
 
