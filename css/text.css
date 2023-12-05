@@ -3,12 +3,9 @@
 /* Imported from https://fonts.google.com/specimen/Signika+Negative#styles */
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&family=Ubuntu:wght@700&display=swap');
 
-/* Imported Rubik bold font for h1 */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
-
 
 h1{
-    font-family:'Rubik';
+    font-family: 'Rubik Mono One', monospace;
     color: #E5E5E5;
     font-size: clamp(5rem, 1rem + 8vw, 7rem);
     text-shadow: 5px 5px 20px black;
