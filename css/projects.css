@@ -17,9 +17,14 @@
 #filmmaking, 
 #photography, 
 #animation {
-    display: flex;
-    flex-direction: column;
     width: 100%;
+    display: block;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+    align-content: center;
+    animation: fade-in 2s ease-in-out forwards;
 }
 
 
