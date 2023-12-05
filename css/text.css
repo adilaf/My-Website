@@ -7,9 +7,9 @@
 h1{
     font-family: 'Rubik Mono One', monospace;
     color: #E5E5E5;
-    font-size: clamp(5rem, 1rem + 8vw, 7rem);
-    text-shadow: 5px 5px 20px black;
-    line-height: 100px;
+    font-size: clamp(4rem, 1rem + 8vw, 7rem);
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    line-height: 5rem;
 }
 
 
@@ -62,9 +62,4 @@ text{
     font-weight: 200;
 }
 
-
-@keyframes fade-in {
-    from { opacity: 0; transform: translateY(-50px); }
-    to { opacity: 4; transform: translateY(0); }
-}
 
