@@ -138,14 +138,13 @@
 .prev{
     align-items: center;
     top: 50%;
-    left: 0;
+    left: 10rem;
 }
 
 .next{
     align-items: center;
-    float: right;
     top: 50%;
-    right: 0; 
+    right: 10rem; 
 }
 
   
@@ -230,22 +229,17 @@ button.prev, button.next {
         height: 13rem;
     }
 
-    button.prev, button.next {
-        position: fixed;
-        display: inline-block;
-        background-color: #ffa631;
-        border:rgba(0, 0, 0, 0.2);
-        color: rgb(0, 0, 0);
-        padding: 10px 15px;
-        text-align: center;
-        text-decoration: none;
+    .prev{
+        left: 0rem;
+    }
     
-        font-size: 16px;
-        margin: 4px 2px;
+    .next{
+        align-items: center;
+        top: 50%;
+        right: 0rem; 
+    }
     
-        cursor: pointer;
-        border-radius: 5px;
-      }
+
 }
 
 /*---------------------max-width 600px-----------------------*/
