@@ -3,6 +3,7 @@
 
 #about-wrapper{
     margin: 4rem;
+    position: relative;
 }
 
 #about{
@@ -138,7 +139,6 @@
     align-items: center;
     top: 50%;
     left: 0;
-
 }
 
 .next{
@@ -150,7 +150,7 @@
 
   
 button.prev, button.next {
-    position: fixed;
+    position: absolute;
     display: inline-block;
     background-color: #ffa631;
     border:rgba(0, 0, 0, 0.2);
