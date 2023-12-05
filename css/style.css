@@ -273,7 +273,7 @@ img{
     border-radius: 5px;
     box-shadow: 10 10 10 black;
     background-color: rgba(247, 247, 247);
-    animation: fade-in 2s ease-in-out forwards;
+    animation: fade-in 0.5s ease-in-out forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
