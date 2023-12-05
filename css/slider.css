@@ -272,11 +272,13 @@ button.prev, button.next {
     button.prev:hover, button.next:hover {
         background-color: #225dff;
         color: #ffffff;
+        transform: scale(75%);
         transition: transform 0.2s ease-in;
     }
 
     button.prev:active, button.next:active {
         background-color: #ffa631;
+        transform: scale(75%);
         transition: transform 0.2s ease-out;
     }
   
