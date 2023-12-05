@@ -265,6 +265,19 @@ button.prev, button.next {
     }
 
     button.prev, button.next {
-        transform: scale(80%);
+        transform: scale(75%);
     }
+        /*----------button animation----------*/
+    
+    button.prev:hover, button.next:hover {
+        background-color: #225dff;
+        color: #ffffff;
+        transition: transform 0.2s ease-in;
+    }
+
+    button.prev:active, button.next:active {
+        background-color: #ffa631;
+        transition: transform 0.2s ease-out;
+    }
+  
 }
