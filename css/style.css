@@ -68,7 +68,7 @@ nav{
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 24rem;
+    top: 23rem;
 }
 
 #header-sub-heading{
@@ -85,6 +85,7 @@ nav{
     flex-direction: column;
     top: 38rem;  /* Adjust as needed for exact positioning */
     left: 50%;
+    margin-top: 2.5rem;
     transform: translate(-50%, -50%);
     flex-direction: row;
     justify-content: center;
@@ -429,12 +430,13 @@ iframe{
     #heading{ 
         display: flex;
         flex-direction: column;
-        top: 12rem;
+        top: 10rem;
     }
 
     #button-container {
         top: 28rem;
-        width: 12rem
+        width: 12rem;
+        margin-top: 2.5rem;
     }
 
     #current{
