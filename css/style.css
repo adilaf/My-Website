@@ -429,6 +429,7 @@ iframe{
         display: flex;
         flex-direction: column;
         height: 55rem;
+        margin-top: 1rem;
         width: 100%;
     }
 
@@ -519,6 +520,7 @@ iframe{
         display: flex;
         flex-direction: column;
         height: 50rem;
+        margin-top: 0;
         justify-content: center;
     }
 
