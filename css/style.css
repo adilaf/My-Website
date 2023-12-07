@@ -430,7 +430,6 @@ iframe{
         display: flex;
         flex-direction: column;
         top: 12rem;
-        width: 80%;
     }
 
     #button-container {
