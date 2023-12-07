@@ -60,6 +60,12 @@
     margin: 1rem;
     width: 15rem;
     border-radius: 100%;
+    background-image: url("../Images/Self-Portrait.avif");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
 .slider-wrapper {
