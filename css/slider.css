@@ -14,7 +14,7 @@
     margin:0 auto;
     background-color: #131313;
     border-radius: 10px;
-    background-color: #B0CBD4;
+    background-color: #ffa631;
     /*background-image: url("../Images/Self-Portrait.avif");
     background-size: auto;
     background-position: 50% 20%;
@@ -154,7 +154,7 @@ button.prev, button.next {
     display: inline-block;
     background-color: #2A2A2A;
     border:rgba(0, 0, 0, 0.2);
-    color: #ffa631;
+    color: #ffffff;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
