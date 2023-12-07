@@ -262,7 +262,7 @@ button.prev, button.next {
 @media screen and (max-width: 600px){
 
     #about-wrapper{
-        margin: 1.5rem;
+        margin: 1rem;
     }
 
     .slider-media{
