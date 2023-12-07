@@ -82,8 +82,11 @@ nav{
 
 #button-container {
     display: flex;
+    flex-direction: column;
     top: 38rem;  /* Adjust as needed for exact positioning */
     left: 50%;
+    background-color: #ffffff76;
+    border-radius: 10px;
     transform: translate(-50%, -50%);
     flex-direction: row;
     justify-content: center;
@@ -92,6 +95,8 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    width: 12rem;
 }
 
 #about-button{
@@ -497,7 +502,6 @@ iframe{
 
     #button-container {
         top: 28rem;
-        width: 100%;
     }
 
     #label-box{
