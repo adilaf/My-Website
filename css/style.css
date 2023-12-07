@@ -82,7 +82,7 @@ nav{
 
 #button-container {
     display: flex;
-    top: 40rem;  /* Adjust as needed for exact positioning */
+    top: 38rem;  /* Adjust as needed for exact positioning */
     left: 50%;
     transform: translate(-50%, -50%);
     flex-direction: row;
@@ -100,11 +100,10 @@ nav{
     width: 10rem;
     color: #2A2A2A;
     background-color: #E5E5E5;
-    border-style: solid;
-    border-color: #2A2A2A;
+    border-style: none;
     border-radius: 7.5px;
     text-align: center;
-    padding: 5px 20px;
+    padding: 7.5px 20px;
     transition: background-color 0.2s ease-in-out;
     text-decoration: none; /* Removes underline from links */
     display: flex;
@@ -117,11 +116,10 @@ nav{
     font-size: 20px;
     width: 10rem;
     color: #E5E5E5;
-    background-color: #225dff;
-    border-style: solid;
-    border-color: #2A2A2A;
+    background-color: #2A2A2A;
+    border-style: none;
     text-align: center;
-    padding: 5px 20px;
+    padding: 7.5px 20px;
     border-radius: 7.5px;
     transition: background-color 0.2s ease-in-out;
     text-decoration: none; /* Removes underline from links */
