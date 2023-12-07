@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 35rem;
+    height: 36rem;
     margin:0 auto;
     background-color: #131313;
     border-radius: 10px;
@@ -112,7 +112,7 @@
     flex-direction: column;
     margin-top: 2rem;
     width: 100%;
-    height: 27rem;
+    height: 28rem;
     justify-content: flex-start;
     text-align: center;
     align-items: center;
