@@ -85,8 +85,6 @@ nav{
     flex-direction: column;
     top: 38rem;  /* Adjust as needed for exact positioning */
     left: 50%;
-    background-color: #ffffff76;
-    border-radius: 10px;
     transform: translate(-50%, -50%);
     flex-direction: row;
     justify-content: center;
@@ -96,7 +94,6 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 12rem;
 }
 
 #about-button{
