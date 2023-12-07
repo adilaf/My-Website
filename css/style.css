@@ -212,6 +212,10 @@ img{
     z-index: 1;
 }
 
+
+#showreel-container{
+    margin: 0 auto;
+}
 /*============================#current/ Recent on Main page============================*/
 /*  SOME AREAS of the code in this section was AI assissted and 
     elemnets from W3Schools may have also been used   */
