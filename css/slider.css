@@ -15,7 +15,7 @@
     background-color: #131313;
     border-radius: 10px;
     background-image: url("../Images/Self-Portrait.avif");
-    background-size: 100rem;
+    background-size: auto;
     background-position: 50% 20%;
     background-repeat: no-repeat;
     background-attachment: fixed;
