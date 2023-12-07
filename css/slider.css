@@ -16,7 +16,7 @@
     border-radius: 10px;
     background-color: #ffa631;
     background-image: url("../Images/icons2.png");
-    background-size: 10%;
+    background-size: 55%;
     background-position: center;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -224,7 +224,6 @@ button.prev, button.next {
         flex-direction: column;
         height: 35rem;
         width: 100%;
-        background-size: 50%;
     }
     
     .about-tags{
