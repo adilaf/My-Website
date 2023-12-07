@@ -68,7 +68,7 @@ nav{
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 25rem;
+    top: 24rem;
 }
 
 #header-sub-heading{
@@ -81,24 +81,28 @@ nav{
 }
 
 #button-container {
-    top: 34rem;  /* Adjust as needed for exact positioning */
+    display: flex;
+    top: 40rem;  /* Adjust as needed for exact positioning */
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
     flex-direction: row;
     justify-content: center;
     position: absolute;
     gap: 0.6rem; /* Adjust for spacing between buttons */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #about-button{
     font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
+    width: 10rem;
     color: #2A2A2A;
     background-color: #E5E5E5;
     border-style: solid;
     border-color: #2A2A2A;
-    border-radius: 10px;
+    border-radius: 7.5px;
     text-align: center;
     padding: 5px 20px;
     transition: background-color 0.2s ease-in-out;
@@ -111,13 +115,14 @@ nav{
 #view{
     font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
+    width: 10rem;
     color: #E5E5E5;
     background-color: #225dff;
     border-style: solid;
     border-color: #2A2A2A;
     text-align: center;
     padding: 5px 20px;
-    border-radius: 10px;
+    border-radius: 7.5px;
     transition: background-color 0.2s ease-in-out;
     text-decoration: none; /* Removes underline from links */
     display: flex;
@@ -482,8 +487,9 @@ iframe{
 
 }
 
+@media screen and (max-width: 660px){
 
-
+}
 
 /*---------------------Max-Width 600px-----------------------*/
 @media screen and (max-width: 600px){
