@@ -422,7 +422,21 @@ iframe{
 
 /*---------------------Max-Width 1000px-----------------------*/
 @media screen and (max-width: 1000px){
-   
+    #video1{
+        height: 36rem;
+    }
+
+    #heading{ 
+        display: flex;
+        flex-direction: column;
+        top: 12rem;
+    }
+
+    #button-container {
+        top: 28rem;
+        width: 12rem
+    }
+
     #current{
         width: 100%; 
     }
@@ -494,24 +508,12 @@ iframe{
 
 /*---------------------Max-Width 600px-----------------------*/
 @media screen and (max-width: 600px){
-    #video1{
-        height: 36rem;
-    }
-
-    #button-container {
-        top: 28rem;
-    }
+   
 
     #label-box{
         top: 6rem;
     }
     
-    #heading{ 
-        display: flex;
-        flex-direction: column;
-        top: 12rem;
-    }
-
     .tags{
         display: flex;
         flex-direction: row;
