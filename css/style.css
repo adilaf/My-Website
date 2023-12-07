@@ -510,11 +510,22 @@ iframe{
 
 /*---------------------Max-Width 600px-----------------------*/
 @media screen and (max-width: 600px){
-   
-
-    #label-box{
-        top: 6rem;
+    #video1{
+        height: 30rem;
     }
+
+    #heading{ 
+        display: flex;
+        flex-direction: column;
+        top: 8rem;
+    }
+
+    #button-container {
+        top: 22rem;
+        width: 12rem;
+        margin-top: 0rem;
+    }
+
     
     .tags{
         display: flex;
