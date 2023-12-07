@@ -71,13 +71,14 @@ A special thanks to W3Schools and their tools */
 
 
 .showreel{
-    width: 80%;
     margin: 0 auto;
 }
 
 .showreel-video1{
-    width: 100%;
-    height: 52rem;
+    width: 80%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 1000px){
@@ -85,5 +86,7 @@ A special thanks to W3Schools and their tools */
 }
 
 @media screen and (max-width: 600px){
-    
+    .showreel-video1{
+        width: 100%;
+    }
 }
