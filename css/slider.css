@@ -16,7 +16,7 @@
     border-radius: 10px;
     background-color: #ffa631;
     background-image: url("../Images/icons2.png");
-    background-size: 55%;
+    background-size: 50%;
     background-position: center;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -115,7 +115,7 @@
     text-align: center;
     align-items: center;
     align-content: center;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #ffffffe6;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
