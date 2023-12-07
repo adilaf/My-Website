@@ -246,7 +246,7 @@ button.prev, button.next {
 @media screen and (max-width: 600px){
 
     #about-wrapper{
-        margin: 2rem;
+        margin: 1.5rem;
     }
 
     #about{
