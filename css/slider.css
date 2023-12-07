@@ -280,6 +280,12 @@ button.prev, button.next {
         justify-content: flex-start;
     }
 
+    #about-image{
+        margin: 1rem;
+        width: 10rem; /* Set the same value as height for a circle */
+        height: 10rem; /* Adjust as needed */
+    }
+
     button.prev, button.next {
         transform: scale(75%);
     }
