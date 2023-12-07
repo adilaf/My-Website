@@ -15,10 +15,9 @@
     background-color: #131313;
     border-radius: 10px;
     background-color: #ffa631;
-    background-image: url("../Images/icons.png");
-    mix-blend-mode: difference;
+    background-image: url("../Images/icons2.png");
     background-size: 20%;
-    background-position: 50% 20%;
+    background-position: center;
     background-repeat: repeat;
     background-attachment: fixed;
     animation: fade-in 2s ease-in-out forwards;
@@ -225,6 +224,7 @@ button.prev, button.next {
         flex-direction: column;
         height: 35rem;
         width: 100%;
+        background-size: 50%;
     }
     
     .about-tags{
@@ -246,9 +246,6 @@ button.prev, button.next {
         height: 13rem;
     }
 
-    .slider-description{
-        height: auto;
-    }
     .prev{
         left: 0rem;
     }
