@@ -101,7 +101,6 @@ nav{
 #about-button{
     font-family: 'Signika Negative', sans-serif;
     font-size: 22px;
-    width: 10rem;
     color: #2A2A2A;
     background-color: #E5E5E5;
     border-style: none;
@@ -118,7 +117,6 @@ nav{
 #view{
     font-family: 'Signika Negative', sans-serif;
     font-size: 22px;
-    width: 10rem;
     color: #E5E5E5;
     background-color: #2A2A2A;
     border-style: none;
@@ -510,7 +508,7 @@ iframe{
 /*---------------------Max-Width 600px-----------------------*/
 @media screen and (max-width: 600px){
     #video1{
-        height: 32rem;
+        height: 33rem;
     }
 
     #heading{ 
@@ -520,7 +518,7 @@ iframe{
     }
 
     #button-container {
-        top: 23rem;
+        top: 24rem;
         width: 14rem;
         margin-top: 0rem;
     }
