@@ -58,7 +58,8 @@
 
 #about-image{
     margin: 1rem;
-    width: 15rem;
+    width: 15%;
+    height: 11rem;
     border-radius: 100%;
     background-image: url("../Images/Self-Portrait.avif");
     background-size: cover;
