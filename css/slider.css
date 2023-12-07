@@ -58,15 +58,13 @@
 
 #about-image{
     margin: 1rem;
-    width: 15%;
-    height: 11rem;
-    border-radius: 100%;
+    width: 14rem; /* Set the same value as height for a circle */
+    height: 14rem; /* Adjust as needed */
+    border-radius: 50%; /* This creates the circle shape */
     background-image: url("../Images/Self-Portrait.avif");
-    background-size: cover;
-    background-position: 50% 50%;
+    background-size: cover; /* Keeps the aspect ratio and covers the entire element */
+    background-position: center; /* Center the image within the element */
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
 }
 
 .slider-wrapper {
@@ -219,10 +217,15 @@ button.prev, button.next {
 /*---------------------max-width 1000px-----------------------*/
 
 @media screen and (max-width: 1000px){
+    #about-wrapper{
+        margin: 2rem;
+    }
+
     #about{
         display: flex;
         flex-direction: column;
         height: 35rem;
+        width: 100%;
     }
     
     .about-tags{
@@ -264,11 +267,6 @@ button.prev, button.next {
         margin: 1.5rem;
     }
 
-    #about{
-        width: 100%;
-        height: 33rem;
-    }
-
     .slider-media{
         display: flex;
         max-width: 90%;
@@ -278,7 +276,7 @@ button.prev, button.next {
     .slider-description{
         margin: 0 auto;
         width: 100%;
-        height: 25rem;
+        height: 28rem;
         justify-content: flex-start;
     }
 
