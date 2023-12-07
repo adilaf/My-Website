@@ -152,7 +152,7 @@
 button.prev, button.next {
     position: absolute;
     display: inline-block;
-    background-color: #ffa631;
+    background-color: #2A2A2A;
     border:rgba(0, 0, 0, 0.2);
     color: rgb(0, 0, 0);
     padding: 10px 20px;
