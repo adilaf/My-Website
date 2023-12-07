@@ -58,14 +58,9 @@
 
 #about-image{
     margin: 0 auto;
-    width: 5rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 10rem;
-    background-image: url("../Images/Self-Portrait.avif");
-    background-size: auto;
-    background-position: 50% 20%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
-
 }
 
 .slider-wrapper {
