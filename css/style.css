@@ -102,9 +102,11 @@ nav{
     font-family: 'Signika Negative', sans-serif;
     font-size: 22px;
     color: #2A2A2A;
-    background-color: #E5E5E5;
-    border-style: none;
+    background-color: #e5e5e514;
+    border-style: solid;
+    border-color: #2A2A2A;
     border-radius: 7.5px;
+    width: 11rem;
     text-align: center;
     padding: 9px 20px;
     transition: background-color 0.2s ease-in-out;
@@ -119,9 +121,11 @@ nav{
     font-size: 22px;
     color: #E5E5E5;
     background-color: #2A2A2A;
-    border-style: none;
+    border-style: solid;
+    border-color: #2A2A2A;
     text-align: center;
     padding: 9px 20px;
+    width: 11rem;
     border-radius: 7.5px;
     transition: background-color 0.2s ease-in-out;
     text-decoration: none; /* Removes underline from links */
