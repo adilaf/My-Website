@@ -92,5 +92,6 @@ A special thanks to W3Schools and their tools */
 @media screen and (max-width: 600px){
     .showreel-video1{
         width: 100%;
+        height: 15rem;
     }
 }
