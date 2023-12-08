@@ -103,9 +103,7 @@ nav{
     font-size: 22px;
     color: #e5e5e5;
     background-color: #2A2A2A ;
-    border-style: solid;
-    border-color: #E5E5E5;
-    border-width: 1.5px;
+    border-style: none;
     border-radius: 5px;
     width: 11rem;
     text-align: center;
@@ -115,6 +113,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #view{
@@ -122,9 +121,7 @@ nav{
     font-size: 22px;
     color: #E5E5E5;
     background-color: #225dff;
-    border-style: solid;
-    border-color: #E5E5E5;
-    border-width: 1.5px;
+    border-style: none;
     text-align: center;
     padding: 10px;
     width: 11rem;
