@@ -82,7 +82,7 @@ nav{
 
 #button-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     top: 38rem;  /* Adjust as needed for exact positioning */
     left: 50%;
     margin-top: 2.5rem;
