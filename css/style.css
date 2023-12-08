@@ -221,8 +221,8 @@ img{
 
 
 #showreel-container{
-    margin: 0 auto;
-    display: block;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 
