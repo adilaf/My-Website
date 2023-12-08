@@ -12,9 +12,8 @@
     width: 80%;
     height: 40rem;
     margin:0 auto;
-    background-color: #131313;
     border-radius: 10px;
-    background-color: #ffa631;
+    background-color: #2A2A2A;
     background-image: url("../Images/icons2.png");
     background-size: 50%;
     background-position: center;
@@ -162,7 +161,7 @@
 button.prev, button.next {
     position: absolute;
     display: inline-block;
-    background-color: #2A2A2A;
+    background-color: #225dff;
     border:rgba(0, 0, 0, 0.2);
     color: #ffffff;
     padding: 10px 20px;
@@ -179,14 +178,14 @@ button.prev, button.next {
   /*----------button animation----------*/
   
   button.prev:hover, button.next:hover {
-    background-color: #225dff;
+    background-color: #ffa631;
     color: #ffffff;
     transform: scale(110%);
     transition: transform 0.2s ease-in;
   }
 
   button.prev:active, button.next:active {
-    background-color: #ffa631;
+    background-color: #225dff;
     transform: scale(100%);
     transition: transform 0.2s ease-out;
   }
