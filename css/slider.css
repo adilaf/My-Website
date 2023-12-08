@@ -271,6 +271,9 @@ button.prev, button.next {
         margin: 0 auto;
     }
     
+    .slider-description{
+        width: 90%;
+    }
 
     #about-image{
         margin: 1rem;
