@@ -67,7 +67,7 @@ nav{
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 23rem;
+    top: 20rem;
 }
 
 #header-sub-heading{
@@ -82,7 +82,7 @@ nav{
 #button-container {
     display: flex;
     flex-direction: column;
-    top: 38rem;  /* Adjust as needed for exact positioning */
+    top: 36rem;  /* Adjust as needed for exact positioning */
     left: 50%;
     margin-top: 2.5rem;
     transform: translate(-50%, -50%);
