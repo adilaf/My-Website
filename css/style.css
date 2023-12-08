@@ -82,7 +82,7 @@ nav{
 
 #button-container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     top: 38rem;  /* Adjust as needed for exact positioning */
     left: 50%;
     margin-top: 2.5rem;
@@ -91,7 +91,7 @@ nav{
     justify-content: center;
     position: absolute;
     gap: 0.6rem; /* Adjust for spacing between buttons */
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
     text-align: center;
