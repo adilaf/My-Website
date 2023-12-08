@@ -131,6 +131,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(161, 161, 161, 0.2);
 }
 
 #view:hover, #about-button:hover{
