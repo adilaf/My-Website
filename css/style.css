@@ -3,11 +3,6 @@
     Chat-GPT, W3Schools and other sources which will be provided in the 
     respective area                           
 */
-* {
-    outline: 1px solid red;
-}
-
-
 body{
     padding: 0;
     margin: 0;
@@ -516,6 +511,10 @@ iframe{
 
 /*---------------------Max-Width 600px-----------------------*/
 @media screen and (max-width: 600px){
+
+    #home{
+        background-color: #ffa631;
+    }
 
     #heading{ 
         display: flex;
