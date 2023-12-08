@@ -103,7 +103,9 @@ nav{
     font-size: 22px;
     color: #e5e5e5;
     background-color: #2A2A2A ;
-    border-style: none;
+    border-style: solid;
+    border-color: #E5E5E5;
+    border-width: 1.5px;
     border-radius: 5px;
     width: 11rem;
     text-align: center;
@@ -120,7 +122,9 @@ nav{
     font-size: 22px;
     color: #E5E5E5;
     background-color: #225dff;
-    border-style: none;
+    border-style: solid;
+    border-color: #E5E5E5;
+    border-width: 1.5px;
     text-align: center;
     padding: 10px;
     width: 11rem;
