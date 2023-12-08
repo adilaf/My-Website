@@ -222,7 +222,7 @@ button.prev, button.next {
     #about{
         display: flex;
         flex-direction: column;
-        height: 35rem;
+        height: 36rem;
         width: 100%;
     }
     
@@ -262,7 +262,11 @@ button.prev, button.next {
 @media screen and (max-width: 600px){
 
     #about-wrapper{
-        margin: 1rem;
+        margin: 0;
+    }
+
+    #about{
+        border-radius: 0;
     }
 
     .slider-media{
