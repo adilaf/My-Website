@@ -15,7 +15,7 @@
     border-radius: 10px;
     background-color: #2A2A2A;
     background-image: url("../Images/icons2.png");
-    background-size: 30%;
+    background-size: 55%;
     
     background-position: center;
     background-repeat: repeat;
@@ -267,7 +267,7 @@ button.prev, button.next {
 
     #about{
         border-radius: 0;
-        background-size: 65%;
+        background-size: 80%;
     }
 
     .slider-media{

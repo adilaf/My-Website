@@ -241,7 +241,7 @@ img{
     animation: fade-in 2s ease-in-out forwards;
     background-color: #ffa631;
     background-image: url("../Images/icons.png");
-    background-size: 30%;
+    background-size: 55%;
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -566,7 +566,7 @@ iframe{
     }
 
     #current{
-        background-size: 65%;
+        background-size: 80%;
     }
 
 }
