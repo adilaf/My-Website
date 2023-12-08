@@ -510,9 +510,6 @@ iframe{
 
 /*---------------------Max-Width 600px-----------------------*/
 @media screen and (max-width: 600px){
-    #video1{
-        height: 33rem;
-    }
 
     #heading{ 
         display: flex;
@@ -521,7 +518,7 @@ iframe{
     }
 
     #button-container {
-        top: 24rem;
+        top: 26rem;
         width: 14rem;
         margin-top: 0rem;
     }
