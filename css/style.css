@@ -514,15 +514,8 @@ iframe{
     #heading{ 
         display: flex;
         flex-direction: column;
-        top: 10rem;
+        top: 12rem;
     }
-
-    #button-container {
-        top: 26rem;
-        width: 14rem;
-        margin-top: 0rem;
-    }
-
     
     .tags{
         display: flex;
