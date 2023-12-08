@@ -241,7 +241,7 @@ img{
     animation: fade-in 2s ease-in-out forwards;
     background-color: #ffa631;
     background-image: url("../Images/icons.png");
-    background-size: 45%;
+    background-size: 35%;
     background-repeat: repeat;
     background-attachment: fixed;
 }
