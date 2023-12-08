@@ -3,6 +3,10 @@
     Chat-GPT, W3Schools and other sources which will be provided in the 
     respective area                           
 */
+* {
+    outline: 1px solid red;
+}
+
 
 body{
     padding: 0;
