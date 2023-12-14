@@ -113,7 +113,7 @@ A special thanks to W3Schools and their tools */
     margin: 1rem;
     padding-bottom: 2rem;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .frame-description h4, p{
