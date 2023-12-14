@@ -102,7 +102,6 @@ A special thanks to W3Schools and their tools */
 
 
 .frame-description{
-    display: flex;
     flex-direction: column;
     width: 100%;
     margin: 1rem;
