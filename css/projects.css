@@ -133,6 +133,21 @@ A special thanks to W3Schools and their tools */
     color: #2a2a2a;
 }
 
+.dropdown-content {
+    display: none;
+    /* Add any additional styling as needed */
+}
+
+.dropdown-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    /* Style as needed */
+}
+
+
+
+
 @media screen and (max-width: 1000px){
     .showreel-video1{
         width: 80%;
