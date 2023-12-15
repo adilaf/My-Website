@@ -154,9 +154,14 @@ i.fas.fa-chevron-down.dropdown-icon {
     border-radius: 50%;
     background-color: #ffa631;
     cursor: pointer;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease; /* Add transition for smooth rotation */
 }
 
+i.fas.fa-chevron-down.dropdown-icon.active {
+    transform: rotate(180deg); /* Rotate when active */
+    background-color: #225dff;
+}
 
 
 @media screen and (max-width: 1000px){

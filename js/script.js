@@ -84,11 +84,16 @@ function showDesign() {
 }
 
 
-function toggleDropdown(id) {
+function toggleDropdown(id, iconId) {
   var content = document.getElementById(id);
+  var icon = document.getElementById(iconId);
+
   if (content.style.display === "block") {
       content.style.display = "none";
+      icon.classList.remove('active');
   } else {
       content.style.display = "block";
+      icon.classList.add('active');
   }
 }
+
