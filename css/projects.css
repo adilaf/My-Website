@@ -103,45 +103,27 @@ A special thanks to W3Schools and their tools */
     box-shadow: none;
 }
 
-.frame-description {
-    position: relative;
-}
 
-.foreground-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: cover;
-    background-position: center;
-}
-
-#foreground1 {
-    background-image: url('../Images/sweet-thing.jpg');
-}
-
-#foreground2 {
-    background-image: url('../Images/cultivate.jpg');
-}
-
-#foreground3 {
-    background-image: url('../Images/services.png');
-}
-
-#foreground4 {
-    background-image: url('../Images/wonder.jpg');
-}
-
-/* Styles for iframes */
 #prototype-bg1,
 #prototype-bg2,
 #prototype-bg3,
-#prototype-bg4 {
+#prototype-bg4{
     background-size: cover;
     background-position: 50% 50%;
 }
 
+#prototype-bg1{
+    background-image: url("../Images/sweet-thing.jpg");
+}
+#prototype-bg2{
+    background-image: url("../Images/cultivate.jpg");
+}
+#prototype-bg3{
+    background-image: url("/Images/services.png");
+}
+#prototype-bg4{
+    background-image: url("/Images/won");
+}
 
 .tags2{
     margin: 1.5rem;
