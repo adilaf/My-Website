@@ -156,7 +156,7 @@ i.fas.fa-chevron-down.dropdown-icon {
     background-color: #225dff;
     cursor: pointer;
     margin-bottom: 1rem;
-    transition: transform 0.3s ease; /* Add transition for smooth rotation */
+    transition: transform ease; /* Add transition for smooth rotation */
 }
 
 .fas.fa-chevron-down.dropdown-icon.active {
