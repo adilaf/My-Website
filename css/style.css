@@ -354,7 +354,8 @@ iframe{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
+    margin-top: 2rem;
 }
 
 .desc-video-container{
@@ -527,6 +528,10 @@ iframe{
         top: 28rem;
         width: 12rem;
         margin-top: 0rem;
+    }
+
+    .iframe-container{
+        margin-top: 1rem;
     }
 
     .tags{
