@@ -297,9 +297,8 @@ img{
     padding: 5px 10px;
     text-align:center;
     margin: 2px;
-    background-color: #b8b8b8;
+    background-color: #D5D5D5;
     color: #2A2A2A;
-    width: 6rem;
     border-radius: 5px 5px 5px 5px;
     font-family: 'Signika Negative', sans-serif;
 }
@@ -308,9 +307,8 @@ img{
     padding: 5px 10px;
     text-align:center;
     margin: 2px;
-    background-color: #dadada;
+    background-color: #F1F1F1;
     color: #333;
-    width:7rem;
     border-radius: 5px 5px 5px 5px;
     font-family: 'Signika Negative', sans-serif;
 }
