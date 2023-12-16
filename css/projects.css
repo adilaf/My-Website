@@ -161,7 +161,7 @@ i.fas.fa-chevron-down.dropdown-icon {
 
 .fas.fa-chevron-down.dropdown-icon.active {
     transform: rotate(180deg); /* Rotate when active */
-    background-color: #225dff;
+    background-color: #ffa631;
 }
 
 
