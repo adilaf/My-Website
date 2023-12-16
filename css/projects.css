@@ -159,7 +159,23 @@ i.fas.fa-chevron-down.dropdown-icon {
     transition: transform 0.3s ease; /* Add transition for smooth rotation */
 }
 
+@keyframes rotate-smear {
+    0% {
+        transform: rotate(0deg);
+        border-radius: 20px;
+    }
+    50% {
+        transform: rotate(90deg);
+        border-radius: 50%; /* Distort shape at the midpoint for a smear effect */
+    }
+    100% {
+        transform: rotate(180deg);
+        border-radius: 20px;
+    }
+}
+
 .fas.fa-chevron-down.dropdown-icon.active {
+    animation: rotate-smear 0.3s ease forwards; /* Use the keyframe animation */
     transform: rotate(180deg); /* Rotate when active */
     background-color: #225dff;
 }
