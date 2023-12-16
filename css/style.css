@@ -297,7 +297,7 @@ img{
     padding: 5px 10px;
     text-align:center;
     margin: 2px;
-    background-color: #6a6a6a;
+    background-color: #D2D2D2;
     color: #ffffff;
     border-radius: 5px 5px 5px 5px;
     font-family: 'Signika Negative', sans-serif;
@@ -307,7 +307,7 @@ img{
     padding: 5px 10px;
     text-align:center;
     margin: 2px;
-    background-color: #cbcbcb;
+    background-color: #F1F1F1;
     color: #333;
     border-radius: 5px 5px 5px 5px;
     font-family: 'Signika Negative', sans-serif;
@@ -468,27 +468,6 @@ iframe{
         flex-wrap: wrap-reverse;
         width: 100%;
         height: 26rem;
-    }
-
-
-    .description-span{
-        padding: 5px 10px;
-        text-align:center;
-        margin: 2px;
-        background-color: #6a6a6a;
-        color: #ffffff;
-        border-radius: 5px 5px 5px 5px;
-        font-family: 'Signika Negative', sans-serif;
-    }
-
-    .description-span2{
-        padding: 5px 10px;
-        text-align:center;
-        margin: 2px;
-        background-color: #cbcbcb;
-        color: #333;
-        border-radius: 5px 5px 5px 5px;
-        font-family: 'Signika Negative', sans-serif;
     }
 
     .title{
