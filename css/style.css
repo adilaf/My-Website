@@ -322,10 +322,6 @@ img{
     width: 18rem;
 }
 
-.tags{
-    display: flex;
-    flex-direction: row;
-}
 
 .text-wrap{
     display: block;
@@ -507,11 +503,6 @@ iframe{
         margin-top: 0rem;
     }
 
-    .tags{
-        display: flex;
-        flex-direction: row;
-        transform: scale(0.75);
-    }
 
     .recent-content2, .slider-content{
         display: flex;
