@@ -430,7 +430,7 @@ iframe{
 /*---------------------Max-Width 1000px-----------------------*/
 @media screen and (max-width: 1000px){
     #video1{
-        height: 36rem;
+        height: 40rem;
     }
 
     #heading{ 
