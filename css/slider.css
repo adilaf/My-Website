@@ -95,7 +95,7 @@
     z-index: 1;
     width: 50%;
     animation: fade-in 0.5s ease-in;
-    transition: transform 0.5s ease-in;
+    transition: transform 0.3s ease-in;
 }
 
 .slider-media {
@@ -117,7 +117,7 @@
     border-radius: 10px;
     background-color: #ffffff9a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: transform 0.2s ease-in, background-color 0.2s ease-in;
 }
 
 
@@ -139,7 +139,7 @@
     border-radius: 5px;
     box-shadow: 10 10 10 black;
     background-color: rgba(247, 247, 247,0.8);
-    animation: fade-in 2s ease-in-out forwards;
+    animation: fade-in 2s ease-in forwards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
