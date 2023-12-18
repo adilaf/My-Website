@@ -15,8 +15,7 @@
     border-radius: 10px;
     background-color: #ffffff;
     background-image: url("../Images/gradients.png");
-    background-size: 35%;
-    
+    background-size: cover;
     background-position: center;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -116,7 +115,7 @@
     align-items: center;
     align-content: center;
     border-radius: 10px;
-    background-color: #ffffffe6;
+    background-color: #ffffff9a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
@@ -267,7 +266,6 @@ button.prev, button.next {
 
     #about{
         border-radius: 0;
-        background-size: 80%;
     }
 
     .slider-media{
