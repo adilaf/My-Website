@@ -103,7 +103,7 @@ nav{
     color: #e5e5e5;
     background-color: #2A2A2A ;
     border-style: solid;
-    border:#e5e5e5;
+    border-color:#e5e5e5;
     border-width: 1px;
     border-radius: 10px;
     width: 11rem;
@@ -123,7 +123,7 @@ nav{
     color: #E5E5E5;
     background-color: #225dff;
     border-style: solid;
-    border:#e5e5e5;
+    border-color:#e5e5e5;
     border-width: 1px;
     text-align: center;
     padding: 10px;
