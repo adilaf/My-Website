@@ -266,6 +266,7 @@ button.prev, button.next {
 
     #about{
         border-radius: 0;
+        background-size: 200%;
     }
 
     .slider-media{
