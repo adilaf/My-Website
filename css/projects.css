@@ -176,6 +176,7 @@ i.fas.fa-chevron-down.dropdown-icon {
 .column {
     -ms-flex: 20%; /* IE 10 */
     flex: 20%;
+    margin: 1rem;
 }
 
 .column img {
@@ -218,8 +219,13 @@ i.fas.fa-chevron-down.dropdown-icon {
 
     .row {
         display: block;
-        margin: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         padding: 0;
+    }
+
+    .column{
+        margin: 1rem;
     }
 
 }
