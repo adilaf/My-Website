@@ -176,7 +176,6 @@ i.fas.fa-chevron-down.dropdown-icon {
 .column {
     -ms-flex: 20%; /* IE 10 */
     flex: 20%;
-    padding: 0 4px;
 }
 
 .column img {
@@ -214,6 +213,12 @@ i.fas.fa-chevron-down.dropdown-icon {
 
     .tags2, .tags{
         transform: scale(0.9);
+    }
+    
+    /* Create two equal columns that sits next to each other */
+    .column {
+        -ms-flex: 0%; /* IE 10 */
+        flex: 0%;
     }
 
 }
