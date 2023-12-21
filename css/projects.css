@@ -86,7 +86,7 @@ A special thanks to W3Schools and their tools */
 }
 
 .section-heading{
-    margin-bottom: 2rem ;
+    margin: 2rem ;
 }
 
 .prototype-container{
@@ -169,7 +169,8 @@ i.fas.fa-chevron-down.dropdown-icon {
     display: flex;
     -ms-flex-wrap: wrap; /* IE 10 */
     flex-wrap: wrap;
-    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 /* Create two equal columns that sits next to each other */
@@ -219,13 +220,6 @@ i.fas.fa-chevron-down.dropdown-icon {
 
     .row {
         display: block;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        padding: 0;
-    }
-
-    .column{
-        margin: 1rem;
     }
 
 }
