@@ -27,3 +27,10 @@ window.addEventListener('scroll', function() {
     document.getElementById('about').style.backgroundPositionY = backgroundPosition + 'px';
     document.getElementById('current').style.backgroundPositionY = backgroundPosition + 'px';
 });
+
+
+var flkty = new Flickity('.slider-wrapper', {
+    // options
+    cellAlign: 'left',
+    contain: true
+});
