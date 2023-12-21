@@ -28,7 +28,7 @@ window.addEventListener('scroll', function() {
     document.getElementById('current').style.backgroundPositionY = backgroundPosition + 'px';
 });
 
-
+//Slider code
 var flkty = new Flickity('.slider-wrapper', {
     // options
     cellAlign: 'left',
