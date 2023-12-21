@@ -33,4 +33,4 @@ var flkty = new Flickity('.slider-wrapper', {
     // options
     cellAlign: 'left',
     contain: true
-});
+  });
