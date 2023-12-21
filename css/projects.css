@@ -181,7 +181,7 @@ i.fas.fa-chevron-down.dropdown-icon {
 .column img {
     margin-bottom: 2rem;
     vertical-align: middle;
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -218,13 +218,8 @@ i.fas.fa-chevron-down.dropdown-icon {
 
     .row {
         display: block;
-        margin: 0 auto;
+        margin: 2rem;
         padding: 0;
     }
 
-    .column img {
-        margin-bottom: 2rem;
-        vertical-align: middle;
-        width: 100%;
-    }
 }
