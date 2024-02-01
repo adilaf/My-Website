@@ -11,9 +11,6 @@
     font-family: 'Rubik Mono One', monospace;
     color: #2A2A2A;
     font-size: clamp(3rem, 1rem + 10vw, 8rem);
-    /*text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);*/
-    line-height: 100%;
-    letter-spacing: -2px;
 }
 
 /*BUTTONS*/
