@@ -11,6 +11,7 @@
     font-family: 'Rubik Mono One', monospace;
     color: #2A2A2A;
     font-size: clamp(3rem, 1rem + 10vw, 8rem);
+    margin: 0 auto;
 }
 
 /*BUTTONS*/
