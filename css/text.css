@@ -20,9 +20,8 @@ h1{
 }
 
 h2{
-    font-family: 'Signika Negative', sans-serif;
-    font-weight: 700;
-    font-size: 75px;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 55px;
     text-align: center;
     opacity: 0;
 }
@@ -30,8 +29,9 @@ h2{
 
 h3{
     font-size: 40px;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
     line-height: 35px;
+    letter-spacing: -1px;
     text-decoration: none;
 }
 
