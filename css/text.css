@@ -20,7 +20,7 @@ h1{
 }
 
 h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
     font-size: 55px;
     text-align: center;
     opacity: 0;
@@ -29,17 +29,17 @@ h2{
 
 h3{
     font-size: 40px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
     line-height: 35px;
     letter-spacing: -1px;
     text-decoration: none;
 }
 
 h4{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
     color: #000000;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: -1px;
     line-height: 30px;
     
@@ -48,7 +48,7 @@ h4{
 h5{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 27px;
 }
 
