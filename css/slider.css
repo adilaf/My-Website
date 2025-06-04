@@ -5,7 +5,8 @@
   padding: 4rem 1rem;
   width: 100%;
   box-sizing: border-box;
-  font-family: 'Signika Negative', sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 #about h2, #about h3, #about h4 {

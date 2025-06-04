@@ -98,7 +98,8 @@ nav{
 }
 
 #about-button{
-    font-family: 'Signika Negative', sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
     font-size: 22px;
     color: #e5e5e5;
     background-color: #2A2A2A ;
@@ -118,7 +119,8 @@ nav{
 }
 
 #view{
-    font-family: 'Signika Negative', sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
     font-size: 22px;
     color: #E5E5E5;
     background-color: #225dff;
@@ -206,14 +208,16 @@ img{
     font-size: 18px;
     color: #ffffff;
     border-radius: 5px 0px 0px 5px;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 1;
 }
 
 .container-subheading{
     padding: 5px 10px;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
     left: 10px;
     color: #5c5c5c;
     font-size: 18px;
@@ -304,7 +308,8 @@ img{
     background-color: #D5D5D5;
     color: #2A2A2A;
     border-radius: 5px 5px 5px 5px;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .description-span2{
@@ -314,7 +319,8 @@ img{
     background-color: #F1F1F1;
     color: #333;
     border-radius: 5px 5px 5px 5px;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .title{
