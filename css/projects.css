@@ -194,9 +194,11 @@ i.fas.fa-chevron-down.dropdown-icon {
 
 #logo-section{
     display: flex;
+    flex-direction: row;
     margin: 0 auto;
     align-items: center;
     align-content: center;
+    gap: 1rem;
 }
 
 .logo-img {
@@ -247,4 +249,8 @@ i.fas.fa-chevron-down.dropdown-icon {
         display: block;
     }
 
+    #logo-section{
+        display: flex;
+        flex-direction: column;
+    }
 }
