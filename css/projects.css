@@ -192,6 +192,25 @@ i.fas.fa-chevron-down.dropdown-icon {
     width: 100%;
 }
 
+#logo-section{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+}
+
+.logo-img {
+    width: 180px; /* uniform size for all logos */
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
 
 @media screen and (max-width: 1000px){
     .showreel-video1{
