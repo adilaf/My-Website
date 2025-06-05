@@ -200,6 +200,7 @@ img{
     width: 300px;
     border-radius: 100%;
     margin: 0 auto;
+    display: block;
 }
 
 
