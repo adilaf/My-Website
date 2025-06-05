@@ -3,25 +3,25 @@
     Chat-GPT, W3Schools and other sources which will be provided in the 
     respective area                           
 */
-body{
+body {
     padding: 0;
     margin: 0;
-    width:100vw;
+    width: 100vw;
     /*background: linear-gradient(180deg, #FFFFFF 17.38%, rgba(84, 113, 121, 0.09) 71.88%, rgba(224, 106, 50, 0.05) 100%);*/
 }
 
-main{
+main {
     width: 100vw;
 }
 
 
 /*==========================NAV============================*/
 
-a{
+a {
     text-decoration: none;
 }
 
-nav{
+nav {
     margin: 0;
     position: fixed;
     z-index: 2;
@@ -35,33 +35,40 @@ nav{
 #hamnav {
     width: 100%;
     background: #000000;
-  }
-  
-  /* (B) HORIZONTAL MENU ITEMS */
-#hamitems { display: flex; }
+}
+
+/* (B) HORIZONTAL MENU ITEMS */
+#hamitems {
+    display: flex;
+}
+
 #hamitems a {
     flex-grow: 1;
     flex-basis: 0;
     margin-top: 10px;
     padding: 15px;
-    color:#ffa631;
+    color: #ffa631;
     text-decoration: none;
     align-items: center;
     text-align: center;
-  }
-#hamitems a:hover { 
+}
+
+#hamitems a:hover {
     background: #225dff;
     color: #E5E5E5;
 }
-  
-  /* (C) HIDE HAMBURGER */
-  #hamnav label, #hamburger { display: none; }
+
+/* (C) HIDE HAMBURGER */
+#hamnav label,
+#hamburger {
+    display: none;
+}
 
 /*-------------------------------------------------------*/
 
 /*=====================HOME SECTION======================*/
 
-#heading{
+#heading {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -70,26 +77,28 @@ nav{
     top: 20rem;
 }
 
-#header-sub-heading{
+#header-sub-heading {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
     width: 25rem;
-    position: absolute; 
+    position: absolute;
 }
 
 #button-container {
     display: flex;
     flex-direction: column;
-    top: 36rem;  /* Adjust as needed for exact positioning */
+    top: 36rem;
+    /* Adjust as needed for exact positioning */
     left: 50%;
     margin-top: 2.5rem;
     transform: translate(-50%, -50%);
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    gap: 0.6rem; /* Adjust for spacing between buttons */
+    gap: 0.6rem;
+    /* Adjust for spacing between buttons */
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
@@ -97,80 +106,84 @@ nav{
     width: 90%;
 }
 
-#about-button{
+#about-button {
     font-family: "DM Sans", sans-serif;
     font-size: 22px;
     color: #e5e5e5;
-    background-color: #2A2A2A ;
+    background-color: #2A2A2A;
     border-style: solid;
-    border-color:#e5e5e5;
+    border-color: #e5e5e5;
     border-width: 1px;
     border-radius: 10px;
     width: 11rem;
     text-align: center;
     padding: 10px;
     transition: background-color 0.2s ease-in-out;
-    text-decoration: none; /* Removes underline from links */
+    text-decoration: none;
+    /* Removes underline from links */
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#view{
+#view {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-size: 22px;
     color: #E5E5E5;
     background-color: #225dff;
     border-style: solid;
-    border-color:#e5e5e5;
+    border-color: #e5e5e5;
     border-width: 1px;
     text-align: center;
     padding: 10px;
     width: 11rem;
     border-radius: 10px;
     transition: background-color 0.2s ease-in-out;
-    text-decoration: none; /* Removes underline from links */
+    text-decoration: none;
+    /* Removes underline from links */
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#view:hover, #about-button:hover{
+#view:hover,
+#about-button:hover {
     background-color: #ffa631;
     animation: ease-in;
     transition: transform 0.2s ease-in-out;
-    color:#E5E5E5;
+    color: #E5E5E5;
 }
 
 
-#view:active{
+#view:active {
     color: #E5E5E5;
     background-color: #2A2A2A;
 }
 
-#about-button:active{
+#about-button:active {
     color: #2A2A2A;
     background-color: #E5E5E5;
 }
 
 
 
-:hover.link{
-    color: #225dff;;
+:hover.link {
+    color: #225dff;
+    ;
     transform: scale(1.1);
     transition: transform 0.2s ease-in-out;
 }
 
-:active.link{
+:active.link {
     color: #E5E5E5;
     transform: scale(100%);
     animation: ease-in;
 }
 
-#video1{
+#video1 {
     padding: 0;
     margin: 0 auto;
     height: 54rem;
@@ -183,7 +196,7 @@ nav{
 }
 
 
-#home{
+#home {
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -192,11 +205,11 @@ nav{
 }
 
 
-img{
+img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#portraitImg{
+#portraitImg {
     width: 300px;
     border-radius: 100%;
     margin: 0 auto;
@@ -205,9 +218,9 @@ img{
 
 
 /*------------Container Heading Span Tags------------*/
-.container-title{
+.container-title {
     padding: 5px 10px;
-    text-align:center;
+    text-align: center;
     margin: 0 auto;
     background-color: #225dff;
     font-size: 18px;
@@ -219,21 +232,22 @@ img{
     z-index: 1;
 }
 
-.container-subheading{
+.container-subheading {
     padding: 5px 10px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     left: 10px;
     color: #5c5c5c;
     font-size: 18px;
-    border-radius: 0px 5px 5px 0px;;
+    border-radius: 0px 5px 5px 0px;
+    ;
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 1;
 }
 
 
-#showreel-container{
+#showreel-container {
     text-align: center;
     margin-top: 3rem;
 }
@@ -244,7 +258,7 @@ img{
 /*  SOME AREAS of the code in this section was AI assissted and 
     elemnets from W3Schools may have also been used   */
 
-#current{
+#current {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -259,21 +273,25 @@ img{
     background-attachment: fixed;
 }
 
-.recent-content2{
+.recent-content2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
     height: 30rem;
     align-content: center;
     /*background-image: url(../Images/giraffe1.jpg);*/
-    background-size: cover; /* This will cover the entire element */
-    background-repeat: no-repeat; /* This will prevent the image from repeating */
-    background-position: 50% 50%; /* This centers the image in the element */
-    opacity: 1; /* 100% opacity */
+    background-size: cover;
+    /* This will cover the entire element */
+    background-repeat: no-repeat;
+    /* This will prevent the image from repeating */
+    background-position: 50% 50%;
+    /* This centers the image in the element */
+    opacity: 1;
+    /* 100% opacity */
 }
 
-.recent-content1{
+.recent-content1 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -281,13 +299,17 @@ img{
     height: 30rem;
     align-content: center;
     /*background-image: url(../Images/paper-3155438_1920.jpg);*/
-    background-size: cover; /* This will cover the entire element */
-    background-repeat: no-repeat; /* This will prevent the image from repeating */
-    background-position: 50% 50%; /* This centers the image in the element */
-    opacity: 1; /* 100% opacity */
+    background-size: cover;
+    /* This will cover the entire element */
+    background-repeat: no-repeat;
+    /* This will prevent the image from repeating */
+    background-position: 50% 50%;
+    /* This centers the image in the element */
+    opacity: 1;
+    /* 100% opacity */
 }
 
-.description{
+.description {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -306,9 +328,9 @@ img{
 }
 
 
-.description-span{
+.description-span {
     padding: 5px 10px;
-    text-align:center;
+    text-align: center;
     margin: 2px;
     background-color: #D5D5D5;
     color: #2A2A2A;
@@ -317,9 +339,9 @@ img{
     font-optical-sizing: auto;
 }
 
-.description-span2{
+.description-span2 {
     padding: 5px 10px;
-    text-align:center;
+    text-align: center;
     margin: 2px;
     background-color: #F1F1F1;
     color: #333;
@@ -328,30 +350,33 @@ img{
     font-optical-sizing: auto;
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     width: 18rem;
 }
 
 
-.text-wrap{
+.text-wrap {
     display: block;
     justify-content: center;
     padding: 0;
-    text-align: center; /* Add this line to ensure text is centered */
+    text-align: center;
+    /* Add this line to ensure text is centered */
 }
 
 .text-wrap p {
     text-align: center;
-    margin: 0 auto; /* This centers the paragraph if it has a specified width */
-    width: 70%; /* Ensure the paragraph takes the full width */
+    margin: 0 auto;
+    /* This centers the paragraph if it has a specified width */
+    width: 70%;
+    /* Ensure the paragraph takes the full width */
 }
 
-iframe{
+iframe {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -360,7 +385,7 @@ iframe{
     border-radius: 10px;
 }
 
-.iframe-container{
+.iframe-container {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -368,7 +393,7 @@ iframe{
     border-radius: 10px 10px 0px 0px;
 }
 
-.desc-video-container{
+.desc-video-container {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -376,12 +401,13 @@ iframe{
     height: 50%;
 }
 
-.desc-video-container, video{
+.desc-video-container,
+video {
     border: none;
     border-radius: 10px;
 }
 
-#logos1{
+#logos1 {
     display: flex;
     position: absolute;
     left: 10%;
@@ -390,26 +416,26 @@ iframe{
     box-shadow: none;
 }
 
-#logos1:hover{
-   transform: scale(150%);
+#logos1:hover {
+    transform: scale(150%);
 }
 
-#logos1::after{
+#logos1::after {
     transform: scale(100%);
- }
+}
 
 
 
-/*======================MEDIA QUERIES=========================*/    
+/*======================MEDIA QUERIES=========================*/
 
 
 /*---------------------Max-Width 1000px for NAVIGATION----------------------*/
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     #hamnav {
         width: 100%;
     }
-    
+
     /* (A) BREAK INTO VERTICAL MENU */
     #hamitems a {
         box-sizing: border-box;
@@ -417,21 +443,24 @@ iframe{
         width: 100%;
         border-top: 1px solid #333;
     }
-    
+
     /* (B) SHOW HAMBURGER ICON */
-    #hamnav label { 
-        display: inline-block; 
+    #hamnav label {
+        display: inline-block;
         color: white;
         background: #ffa631;
         font-style: normal;
         font-size: 1.2em;
         padding: 10px;
     }
-    
+
     /* (C) TOGGLE SHOW/HIDE MENU */
-    #hamitems { display: none; }
-    #hamnav input:checked ~ #hamitems { 
-        display: block; 
+    #hamitems {
+        display: none;
+    }
+
+    #hamnav input:checked~#hamitems {
+        display: block;
         animation: fade-in 1s ease-in-out forwards;
     }
 }
@@ -439,12 +468,12 @@ iframe{
 
 
 /*---------------------Max-Width 1000px-----------------------*/
-@media screen and (max-width: 1000px){
-    #video1{
+@media screen and (max-width: 1000px) {
+    #video1 {
         height: 40rem;
     }
 
-    #heading{ 
+    #heading {
         display: flex;
         flex-direction: column;
         top: 10rem;
@@ -454,11 +483,12 @@ iframe{
         top: 30rem;
     }
 
-    #current{
-        width: 100%; 
+    #current {
+        width: 100%;
     }
 
-    .recent-content2, .slider-content{
+    .recent-content2,
+    .slider-content {
         display: flex;
         flex-direction: column-reverse;
         height: 55rem;
@@ -466,7 +496,7 @@ iframe{
 
     }
 
-    .recent-content1{
+    .recent-content1 {
         display: flex;
         flex-direction: column;
         height: 55rem;
@@ -474,7 +504,8 @@ iframe{
         width: 100%;
     }
 
-    .description, .slider-description{
+    .description,
+    .slider-description {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap-reverse;
@@ -482,16 +513,16 @@ iframe{
         height: 26rem;
     }
 
-    .title{
+    .title {
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         margin: 0 auto;
     }
 
 
-    iframe{
+    iframe {
         width: 100%;
         height: 30rem;
     }
@@ -501,18 +532,18 @@ iframe{
 
 
 /*---------------------Max-Width 600px-----------------------*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-    #home{
+    #home {
         background-color: #2A2A2A;
     }
 
-    #heading{ 
+    #heading {
         display: flex;
         flex-direction: column;
         top: 12rem;
     }
-    
+
     #button-container {
         top: 30rem;
         width: 12rem;
@@ -520,7 +551,8 @@ iframe{
     }
 
 
-    .recent-content2, .slider-content{
+    .recent-content2,
+    .slider-content {
         display: flex;
         flex-direction: column;
         flex-direction: column-reverse;
@@ -528,7 +560,7 @@ iframe{
         justify-content: center;
     }
 
-    .recent-content1{
+    .recent-content1 {
         display: flex;
         flex-direction: column;
         height: 50rem;
@@ -536,7 +568,8 @@ iframe{
         justify-content: center;
     }
 
-    .description, .slider-description{
+    .description,
+    .slider-description {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap-reverse;
@@ -544,14 +577,13 @@ iframe{
         height: 28rem;
     }
 
-    iframe{
+    iframe {
         width: 100%;
         height: 15rem;
     }
 
-    #current{
+    #current {
         background-size: 80%;
     }
 
 }
-
